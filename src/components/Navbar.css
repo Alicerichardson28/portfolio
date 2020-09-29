@@ -47,22 +47,79 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+
+
 
 .first-container {
+    position: relative;
     width: 100%;
     height: 1200px;
-    background-color: rgb(71, 70, 70);
+    background-color: rgb(94, 93, 93);
+}
+
+.name-container {
+    position: absolute;
+    top: 50%;
+    left: 20%;
 }
 
 .name {
     color: white;
     font-size: 4em;
     font-weight: 700;
+    font-family: 'Overpass', sans-serif;
 }
 
 .job-title {
     color: white;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 200;
+    font-family: 'Overpass', sans-serif;
+}
+
+button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 0.6em;
+    color: red;
+    cursor: pointer;
+
+    display: flex;
+    align-self: center;
+    margin-left: 9em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 0.7em 1.7em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+button :hover,:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.button {
+    border-color: #3498db;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 
+        0 0 40px 40px#3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+    
+}
+
+.button:hover {
+    box-shadow: 
+        0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 

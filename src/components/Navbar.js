@@ -8,6 +8,8 @@ export default class Navbar extends Component {
                 <div className='name-container'>
                     <h1 className='name'>Alice Richardson</h1>
                     <h2 className='job-title'>Full stack developer</h2>
+                    <br></br>
+                    <button className='button'>Contact</button>
                 </div>
             </div>
         )
