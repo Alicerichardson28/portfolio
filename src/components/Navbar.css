@@ -55,8 +55,8 @@ table {
 .first-container {
     position: relative;
     width: 100%;
-    height: 1200px;
-    background-color: rgb(94, 93, 93);
+    height: 800px;
+    background-color: rgb(31, 30, 30);
 }
 
 .name-container {
@@ -123,3 +123,13 @@ button :hover,:focus {
         0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
+.about {
+    margin-top: 2em;
+    font-size: 4em;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+}
+
+.content-about {
+    margin-top: 1em;
+}
