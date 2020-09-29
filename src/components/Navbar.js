@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import About from './About'
+import PDF from '../picture/Alice Richardson.pdf'
 import './Navbar.css'
 
 export default class Navbar extends Component {
@@ -11,7 +11,7 @@ export default class Navbar extends Component {
                         <h1 className='name'>Alice Richardson</h1>
                         <h2 className='job-title'>Full stack developer</h2>
                         <br></br>
-                        <button className='button'>Download CV</button>
+                        <button className='button'><a href={PDF}>Download CV</a></button>
                     </div>
                 </div>
             </>
