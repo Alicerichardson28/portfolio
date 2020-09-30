@@ -127,3 +127,15 @@ a {
     text-decoration:none;
     color: white;
 }
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list {
+    font-weight: 200;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 2em;
+    color: white;
+}
