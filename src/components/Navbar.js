@@ -9,8 +9,8 @@ export default class Navbar extends Component {
                 <div className='first-container'>
                     <ul className='nav-container'>
                         <li className='nav-list'>About</li>
-                        <li className='nav-list'>Blog</li>
-                        <li className='nav-list'>Contact Me</li>
+                        <li className='nav-list'>Blogs</li>
+                        <li className='nav-list'>Projects</li>
                     </ul>
                     <div className='name-container'>
                         <h1 className='name'>Alice Richardson</h1>
