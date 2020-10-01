@@ -130,7 +130,6 @@ a {
 
 .nav-container {
     margin-left: 45%;
-    width: 60%;
     display: flex;
     justify-content: space-evenly;
 }

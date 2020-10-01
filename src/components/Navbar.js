@@ -8,11 +8,15 @@ export default class Navbar extends Component {
             <>
                 <div className='first-container'>
                         <ul className='nav-container'>
-                        <Link to="/About">
-                            <li className='nav-list'>About</li>
-                        </Link>
-                            <li className='nav-list'>Blogs</li>
-                            <li className='nav-list'>Projects</li>
+                            <Link to="/about">
+                                <li className='nav-list'>About</li>
+                            </Link>
+                            <Link to="/blogs">
+                                <li className='nav-list'>Blogs</li>
+                            </Link>
+                            <Link to="/projects">
+                                <li className='nav-list'>Projects</li>
+                            </Link>
                         </ul> 
                     <div className='name-container'>
                         <h1 className='name'>Alice Richardson</h1>
