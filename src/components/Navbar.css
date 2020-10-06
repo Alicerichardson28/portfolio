@@ -55,13 +55,13 @@ table {
 .first-container {
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 890px;
     background-color: rgb(31, 30, 30);
 }
 
 .name-container {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 20%;
 }
 
@@ -135,7 +135,7 @@ a {
 }
 
 .nav-list {
-    font-weight: 200;
+    font-weight: 300;
     font-family: 'Overpass', sans-serif;
     margin-top: 2em;
     color: white;
