@@ -13,18 +13,28 @@ export default class Blogs extends Component {
          .then(res => this.setState({blogs: res}))
     }
 
-    showBlogs = this.state.blogs.map(blog => {
-        return (
-            <ul className='blogs-container'>
-                <li className='blogs-card'><h1>{blog.items.content}</h1></li>
-            </ul>
-        )
-    })
     render() {
+        const showBlogs = this.state.blogs.map(blog => 
+             {
+            return ( 
+                <div className='blogs-container'>
+                    <a href={blog.link}>
+                    <ul className='blogs-ul'>
+                        <li className='blogs-li'>
+                            <div className='img-container'>
+                                <img className='img' src={blog.thumbnail}/>
+                            </div>
+                            <h1 className='title'>{blog.title}</h1>
+                        </li>
+                    </ul>
+                    </a>
+                </div>
+            )
+        })
 
         return (
             <div>
-                {this.showBlogs}
+                {showBlogs}
             </div>
         )
     }
