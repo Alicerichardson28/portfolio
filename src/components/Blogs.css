@@ -59,8 +59,8 @@ table {
 }
 
 .blogs-li {
-    width: 250px;
-    height: 320px;
+    width: 270px;
+    height: 350px;
     background-color: #D5DBDB;
     -webkit-filter: drop-shadow(5px 5px 5px #222 );
     filter: drop-shadow(5px 5px 5px #222);
@@ -80,5 +80,7 @@ table {
 }
 
 .title {
+    font-size: large;
     margin-top: 2.5em;
+    color: black;
 }
