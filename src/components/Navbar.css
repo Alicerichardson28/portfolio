@@ -140,3 +140,11 @@ a {
     margin-top: 2em;
     color: white;
 }
+
+.logo {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 2em;
+}

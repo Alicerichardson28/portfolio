@@ -7,16 +7,17 @@ export default class Navbar extends Component {
         return (
             <>
                 <div className='first-container'>
+                        <h1 className='logo'>A</h1>
                         <ul className='nav-container'>
-                            <Link to="/about">
-                                <li className='nav-list'>About</li>
-                            </Link>
-                            <Link to="/blogs">
-                                <li className='nav-list'>Blogs</li>
-                            </Link>
-                            <Link to="/projects">
-                                <li className='nav-list'>Projects</li>
-                            </Link>
+                                <Link to="/about">
+                                    <li className='nav-list'>About</li>
+                                </Link>
+                                <Link to="/blogs">
+                                    <li className='nav-list'>Blogs</li>
+                                </Link>
+                                <Link to="/projects">
+                                    <li className='nav-list'>Projects</li>
+                                </Link>
                         </ul> 
                     <div className='name-container'>
                         <h1 className='name'>Alice Richardson</h1>
