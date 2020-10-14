@@ -27,6 +27,7 @@ export default class Blogs extends Component {
                                     <img className='img' src={blog.thumbnail}/>
                                 </div>
                                 <h1 className='title'>{blog.title}</h1>
+                                <h5 className='date'>{blog.pubDate}</h5>
                             </li>
                         </ul>
                         </a>

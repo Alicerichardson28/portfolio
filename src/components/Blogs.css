@@ -58,7 +58,7 @@ table {
 
 .blogs-li {
     width: 40%;
-    height: 380px;
+    height: 390px;
     background-color: #D5DBDB;
     -webkit-filter: drop-shadow(5px 5px 5px #222 );
     filter: drop-shadow(5px 5px 5px #222);
@@ -91,4 +91,11 @@ table {
 .blog {
     display: row;
     
+}
+
+.date {
+    margin-top: 0.5em;
+    color: black;
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
 }
