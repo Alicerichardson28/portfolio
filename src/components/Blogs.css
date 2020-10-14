@@ -57,21 +57,19 @@ table {
 }
 
 .blogs-li {
-    width: 270px;
+    width: 40%;
     height: 380px;
     background-color: #D5DBDB;
     -webkit-filter: drop-shadow(5px 5px 5px #222 );
     filter: drop-shadow(5px 5px 5px #222);
-
   
-    width: 60%;
     margin: 0 auto;
     margin-bottom: 5em;
 }
 
 .img-container {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     height: 30%;
 }
 
@@ -86,4 +84,11 @@ table {
     font-size: large;
     margin-top: 12em;
     color: black;
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
+}
+
+.blog {
+    display: row;
+    
 }
