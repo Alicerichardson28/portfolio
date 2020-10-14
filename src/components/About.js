@@ -7,6 +7,17 @@ export default class About extends Component {
         return (
             <div>
                 <Link to='/'><h2 className='logo'>A</h2></Link>
+                        <ul className='nav-container'>
+                                <Link to="/about">
+                                    <li className='nav-list'>About</li>
+                                </Link>
+                                <Link to="/blogs">
+                                    <li className='nav-list'>Blogs</li>
+                                </Link>
+                                <Link to="/projects">
+                                    <li className='nav-list'>Projects</li>
+                                </Link>
+                        </ul> 
                 <div className='about-container'>
                         <h1 className='about'>About</h1>
                         <p className='content-about'>

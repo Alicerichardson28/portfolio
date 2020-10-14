@@ -19,7 +19,6 @@ export default class Blogs extends Component {
              {
             return ( 
                 <>
-                    <Link to='/'><h2 className='logo'>A</h2></Link>
                     <div className='blogs-container'>
                         <a href={blog.link}>
                         <ul className='blogs-ul'>
@@ -35,9 +34,10 @@ export default class Blogs extends Component {
                 </>
             )
         })
-
+        
         return (
             <div>
+                <Link to='/'><h2 className='logo'>A</h2></Link>
                 {showBlogs}
             </div>
         )

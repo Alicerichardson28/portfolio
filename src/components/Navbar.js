@@ -10,13 +10,13 @@ export default class Navbar extends Component {
                         <h1 className='logo-main-page'>A</h1>
                         <ul className='nav-container'>
                                 <Link to="/about">
-                                    <li className='nav-list'>About</li>
+                                    <li className='nav-list-home'>About</li>
                                 </Link>
                                 <Link to="/blogs">
-                                    <li className='nav-list'>Blogs</li>
+                                    <li className='nav-list-home'>Blogs</li>
                                 </Link>
                                 <Link to="/projects">
-                                    <li className='nav-list'>Projects</li>
+                                    <li className='nav-list-home'>Projects</li>
                                 </Link>
                         </ul> 
                     <div className='name-container'>

@@ -69,9 +69,22 @@ table {
 }
 
 .logo {
-    position: relative;
+    position: absolute;
     color: rgb(7, 7, 7);
     font-size: 60px;
     font-weight: 900;
-    margin-right: 20em;
+    margin-left: 3em;
+}
+
+.nav-container {
+    margin-left: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list {
+    font-weight: 300;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 2em;
+    color: rgb(8, 8, 8);
 }
