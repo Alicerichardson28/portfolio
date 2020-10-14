@@ -50,6 +50,9 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 
+.about-container {
+	margin-top: 3em;
+}
 .about {
     text-decoration: underline;
     margin-top: 5em;
@@ -63,4 +66,12 @@ table {
     font-size: 20px;
     font-family: 'Overpass', sans-serif;
     margin-bottom: 7em;
+}
+
+.logo {
+    position: relative;
+    color: rgb(7, 7, 7);
+    font-size: 60px;
+    font-weight: 900;
+    margin-right: 30em;
 }
