@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Blogs.css'
+import { Link } from 'react-router-dom';
 
 export default class Blogs extends Component {
     state ={
@@ -17,6 +18,8 @@ export default class Blogs extends Component {
         const showBlogs = this.state.blogs.map(blog => 
              {
             return ( 
+                <>
+                    <Link to='/'><h2 className='logo'>A</h2></Link>
                     <div className='blogs-container'>
                         <a href={blog.link}>
                         <ul className='blogs-ul'>
@@ -29,6 +32,7 @@ export default class Blogs extends Component {
                         </ul>
                         </a>
                     </div>
+                </>
             )
         })
 
