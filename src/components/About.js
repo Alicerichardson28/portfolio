@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './About.css'
+import { Link } from 'react-router-dom';
 
 export default class About extends Component {
     render() {
         return (
             <div>
-                <h2 className='logo'>A</h2>
+                <Link to='/'><h2 className='logo'>A</h2></Link>
                 <div className='about-container'>
                         <h1 className='about'>About</h1>
                         <p className='content-about'>

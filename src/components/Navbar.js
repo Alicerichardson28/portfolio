@@ -7,7 +7,7 @@ export default class Navbar extends Component {
         return (
             <>
                 <div className='first-container'>
-                        <h1 className='logo'>A</h1>
+                        <h1 className='logo-main-page'>A</h1>
                         <ul className='nav-container'>
                                 <Link to="/about">
                                     <li className='nav-list'>About</li>
