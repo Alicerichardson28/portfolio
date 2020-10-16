@@ -70,10 +70,11 @@ table {
 
 .logo {
     position: absolute;
-    color: rgb(7, 7, 7);
+    color: #ffffff;
     font-size: 60px;
     font-weight: 900;
     margin-left: 3em;
+    margin-top: 0.5%;
 }
 
 .nav-container {
@@ -83,8 +84,13 @@ table {
 }
 
 .nav-list {
-    font-weight: 300;
+    font-weight: 700;
     font-family: 'Overpass', sans-serif;
     margin-top: 2em;
-    color: rgb(8, 8, 8);
+    color: #ffffff;
+}
+
+.navbar-bg {
+    background-color: black;
+    height: 75px;
 }

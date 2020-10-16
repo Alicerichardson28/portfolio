@@ -3,13 +3,14 @@
 
 .eco-freak-project {
     width: 100%;
-    height: 80%;
+    height: 50%;
 }
 
 .font-stack {
     color: black;
     font-weight: 200;
     font-family: 'Overpass', sans-serif;
+    margin-top: 2em;
 }
 
 .project-name {
@@ -20,10 +21,16 @@
 }
 
 .project-card {
+    border-radius: 3%;
     margin-top: 5em;
-    width: 450px;
-    height: 430px;
+    width: 300px;
+    height: 350px;
     background-color: #ffffff;
-    -webkit-filter: drop-shadow(5px 5px 5px #222 );
-    filter: drop-shadow(5px 5px 5px #222);
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(133, 133, 133) );
+    filter: drop-shadow(5px 5px 5px rgb(148, 148, 148));
+}
+
+.navbar-bg {
+    background-color: black;
+    height: 75px;
 }

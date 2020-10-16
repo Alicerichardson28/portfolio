@@ -99,3 +99,8 @@ table {
     font-weight: 300;
     font-family: 'Overpass', sans-serif;
 }
+
+.navbar-bg {
+    background-color: black;
+    height: 75px;
+}
