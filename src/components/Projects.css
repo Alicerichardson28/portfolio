@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+
+.eco-freak-project {
+    width: 100%;
+    height: 80%;
+}
+
+.font-stack {
+    color: black;
+    font-weight: 200;
+    font-family: 'Overpass', sans-serif;
+}
+
+.project-name {
+    padding-top: 2em;
+    color: black;
+    font-weight: 200;
+    font-family: 'Overpass', sans-serif;
+}
+
+.project-card {
+    margin-top: 5em;
+    width: 450px;
+    height: 430px;
+    background-color: #ffffff;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
