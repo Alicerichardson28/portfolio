@@ -3,18 +3,22 @@
 
 .eco-freak-project {
     width: 100%;
-    height: 50%;
+    height: 60%;
 }
 
 .font-stack {
+    text-align: left;
     color: black;
     font-weight: 200;
     font-family: 'Overpass', sans-serif;
     margin-top: 2em;
+    margin-left: 2em;
 }
 
 .project-name {
+    text-align: left;
     padding-top: 2em;
+    margin-left: 2em;
     color: black;
     font-weight: 200;
     font-family: 'Overpass', sans-serif;
