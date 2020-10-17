@@ -112,3 +112,12 @@ table {
     grid-gap: 10px;
     justify-items: center;
 }
+
+.blog-title{
+    margin-top: 3em;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Overpass', sans-serif;
+}
