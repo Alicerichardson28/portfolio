@@ -52,7 +52,9 @@ export default class Blogs extends Component {
                         </Link>
                     </ul> 
                 </div>
-                {showBlogs}
+                <div className='blog-container'>
+                    {showBlogs}
+                </div>
             </div>
         )
     }
