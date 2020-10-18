@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 
 .eco-freak-project {
+    margin-top: 2em;
     width: 100%;
-    height: 60%;
+    height: 50%;
 }
 
 .font-stack {

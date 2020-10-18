@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import './Projects.css'
+import ecofreak from '../picture/eco-freak.png'
 
 
 export default class Projects extends Component {
@@ -26,7 +27,7 @@ export default class Projects extends Component {
                     <ul className='project-container'>
                         <li className='project-card'>
                             <a href='http://ec2-3-128-181-53.us-east-2.compute.amazonaws.com/'>
-                                <img className='eco-freak-project' src='https://cdn3.f-cdn.com//files/download/110732690/plant.png'/>
+                                <img className='eco-freak-project' src={ecofreak}/>
                                 <h1 className='project-name'>Ecofreak</h1>
                                 <h1 className='font-stack'>Tech Stack // MEVN app deploy with AWS EC2</h1>
                             </a>
