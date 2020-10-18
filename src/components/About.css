@@ -75,6 +75,7 @@ table {
     font-weight: 900;
     margin-left: 3em;
     margin-top: 0.5%;
+    font-family: 'Overpass', sans-serif;
 }
 
 .nav-container {
@@ -94,3 +95,33 @@ table {
     background-color: black;
     height: 75px;
 }
+
+.alice-photo {
+    width: 50%;
+}
+
+.alice-container {
+    position: relative;
+    width: 50%;
+    border-radius: 2%;
+    margin-left: 5em;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+}
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  
+    80%{
+      transform: translateX(10px);
+    }
+  
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }

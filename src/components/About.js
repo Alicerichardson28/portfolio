@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './About.css'
 import { Link } from 'react-router-dom';
+import alice from '../picture/Alice.jpg'
+import fadeIn from 'react-animations/lib/fade-in'
 
 export default class About extends Component {
     render() {
@@ -21,6 +23,9 @@ export default class About extends Component {
                             </ul> 
                 </div>
                 <div className='about-container'>
+                        <div className='alice-container'>
+                            <img className='alice-photo' src={alice}/>
+                        </div>
                         <h1 className='about'>About</h1>
                         <p className='content-about'>
                             I am a full stack developer with a background in interior design. <br></br>
@@ -28,7 +33,8 @@ export default class About extends Component {
                             <br></br>
                             I am looking for a full-time position as a Software Engineer. I have experience in Javascript,<br></br>
                             Ruby on Rails, React, React Native, HTML, CSS, and I am also open to learning any new technical <br></br> 
-                            language as well.I am hardworking, a quick learner, and a great team player. </p>
+                            language as well.I am hardworking, a quick learner, and a great team player. 
+                        </p>
                 </div>
             </div>
         )

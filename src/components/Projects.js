@@ -23,13 +23,18 @@ export default class Projects extends Component {
                     </ul> 
                 </div>
                 <div>
-                    <h1>some of my latest work</h1>
+                    <h1 className='project-title'>some of my latest work</h1>
                     <ul className='project-container'>
                         <li className='project-card'>
                             <a href='http://ec2-3-128-181-53.us-east-2.compute.amazonaws.com/'>
-                                <img className='eco-freak-project' src={ecofreak}/>
-                                <h1 className='project-name'>Ecofreak</h1>
-                                <h1 className='font-stack'>Tech Stack // MEVN app deploy with AWS EC2</h1>
+                                <div className='image-project'>
+                                    <img className='eco-freak-project' src={ecofreak}/>
+                                </div>
+                                <div className='content'>
+                                    <h1 className='project-name'>Ecofreak</h1>
+                                    <h1 className='font-stack'>Tech Stack // MEVN app deploy with AWS EC2</h1>
+                                </div>
+                                
                             </a>
                         </li>
                     </ul>
