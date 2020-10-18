@@ -51,11 +51,16 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 
 .about-container {
-	margin-top: 3em;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15rem;
+    padding-right: 10rem;
+    position: relative;
 }
 .about {
+    margin-top: 1em;
     text-decoration: underline;
-    margin-top: 5em;
     font-size: 4em;
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
@@ -98,13 +103,12 @@ table {
 
 .alice-photo {
     width: 50%;
+    border-radius: 2%;
+    margin-right: 4em;
 }
 
 .alice-container {
-    position: relative;
-    width: 50%;
     border-radius: 2%;
-    margin-left: 5em;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
