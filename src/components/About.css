@@ -50,8 +50,12 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 
+/* .full-stack { 
+    font-weight: 700;
+  } */
+
 .about-container {
-    margin-top: 10em;
+    margin-top: 8em;
     display: flex;
     flex-direction: row;
     padding-left: 15rem;
@@ -59,7 +63,7 @@ table {
     position: relative;
 }
 .about {
-    margin-top: 1em;
+    margin-top: 0.5em;
     text-decoration: underline;
     font-size: 4em;
     font-weight: 700;
@@ -102,9 +106,10 @@ table {
 }
 
 .alice-photo {
-    width: 50%;
+    width: 70%;
     border-radius: 2%;
     margin-right: 4em;
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .alice-container {
