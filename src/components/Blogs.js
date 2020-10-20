@@ -52,7 +52,7 @@ export default class Blogs extends Component {
                         </Link>
                     </ul> 
                 </div>
-                <h1 className='blog-title'>latest blogs</h1>
+                <h1 className='blog-title'><u>latest blogs</u></h1>
                 <div className='blog-container'>
                     {showBlogs}
                 </div>

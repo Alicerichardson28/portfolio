@@ -23,7 +23,7 @@ export default class Projects extends Component {
                     </ul> 
                 </div>
                 <div>
-                    <h1 className='project-title'>some of my latest work</h1>
+                    <h1 className='project-title'><u>Some of my latest work</u></h1>
                     <ul className='project-container'>
                         <li className='project-card'>
                             <a href='http://ec2-3-138-142-241.us-east-2.compute.amazonaws.com/'>
