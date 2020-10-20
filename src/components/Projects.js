@@ -26,7 +26,7 @@ export default class Projects extends Component {
                     <h1 className='project-title'>some of my latest work</h1>
                     <ul className='project-container'>
                         <li className='project-card'>
-                            <a href='http://ec2-3-128-181-53.us-east-2.compute.amazonaws.com/'>
+                            <a href='http://ec2-3-138-142-241.us-east-2.compute.amazonaws.com/'>
                                 <div className='image-project'>
                                     <img className='eco-freak-project' src={ecofreak}/>
                                 </div>
