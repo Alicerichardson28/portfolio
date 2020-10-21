@@ -27,31 +27,39 @@ export default class Projects extends Component {
                     <h1 className='project-title'><u>Some of my latest work</u></h1>
                     <ul className='project-container'>
                         <li className='project-card'>
-                            <a href='http://ec2-3-138-142-241.us-east-2.compute.amazonaws.com/'>
-                                <div className='image-project'>
+                                {/* <div className='image-project'>
                                     <img className='eco-freak-project' src={ecofreak}/>
-                                </div>
+                                </div> */}
+                                 <iframe className='video' width="420" height="315"
+                                        src="https://www.youtube.com/embed/wtGFgzJXCxw">
+                                </iframe>
                                 <div className='content'>
-                                    <h1 className='project-name'>Ecofreak</h1>
-                                    <h1 className='font-stack'>Tech Stack // MEVN app deploy with AWS EC2</h1>
+                                    <h1 className='project-name'>Ecofreak // Tech Stack : MEVN app deploy with AWS EC2 //<a className='link-url' href='http://ec2-3-138-142-241.us-east-2.compute.amazonaws.com/'> Link URL</a> </h1>
                                 </div>
-                            </a>
                         </li>
                         <li className='project-card'>
-                                {/* <img className='parking-image' src={parking}/> */}
-                                <iframe className='parking-video' width="420" height="315"
+                                <iframe className='video' width="420" height="315"
                                         src="https://www.youtube.com/embed/QVFtjzVuoXc">
                                 </iframe>
+                                <div className='content'>
+                                    <h1 className='project-name'>Parking spot finder// Tech Stack : Ruby on rails, React Native(expo), <br></br><br></br>Authentication (JWT)</h1>
+                                </div>
                         </li>     
                         <li className='project-card'>
-                                <iframe className='parking-video' width="420" height="315"
-                                        src="https://www.youtube.com/embed/QVFtjzVuoXc">
+                                <iframe className='video' width="420" height="315"
+                                        src="https://www.youtube.com/embed/g_wWus-WjAk">
                                 </iframe>
+                                <div className='content'>
+                                    <h1 className='project-name'>Thai Alphabet flashcard and Mix & Match game // Tech Stack : Ruby on Rails, <br></br><br></br> Javascript, HTML, CSS </h1>
+                                </div>
                         </li>     
                         <li className='project-card'>
-                                <iframe className='parking-video' width="420" height="315"
-                                        src="https://www.youtube.com/embed/QVFtjzVuoXc">
+                                <iframe className='video' width="420" height="315"
+                                        src="https://www.youtube.com/embed/7_P93eDzkQs">
                                 </iframe>
+                                <div className='content'>
+                                    <h1 className='project-name'>Coffee Shop // Tech Stack : Ruby on Rails, Javascript, HTML, CSS </h1>
+                                </div>
                         </li>     
                     </ul>
                 </div>
