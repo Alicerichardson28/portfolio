@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import PDF from '../picture/Alice Richardson.pdf'
-import './Navbar.css'
+import './Home.css'
 import { Link } from 'react-router-dom';
-import logo from '../picture/2.png'
+import Parada from '../picture/parada.png'
 export default class Navbar extends Component {
     render() {
         return (
             <>
                 <div className='first-container'>
-                        {/* <h1 className='logo-main-page'>A</h1> */}
                         <ul className='nav-container'>
                                 <Link to="/about">
                                     <li className='nav-list-home'>About</li>
@@ -21,10 +20,15 @@ export default class Navbar extends Component {
                                 </Link>
                         </ul> 
                     <div className='name-container'>
-                        <h1 className='name'>Alice Richardson</h1>
-                        <h2 className='job-title'>Full stack developer / Designer</h2>
-                        <br></br>
-                        <button className='button'><a href={PDF}>Download CV</a></button>
+                        <div className='content-container'>
+                            <h1 className='name'>Alice Richardson</h1>
+                            <h2 className='job-title'>Full stack developer / Designer</h2>
+                            <br></br>
+                            <button className='button'><a href={PDF}>Download CV</a></button>
+                        </div>
+                        <div className='photo-container'>
+                            <img className='parada' src={Parada}/>
+                        </div>
                     </div>
                 </div>
             </>
