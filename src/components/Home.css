@@ -61,12 +61,13 @@ table {
 
 .name-container {
     position: absolute;
-    height: 500px;
+    height: 670px;
     top: 27%;
     left: 17%;
 
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .name {
@@ -157,8 +158,10 @@ a {
 }
 
 .parada {
-    width: 400px;
-    filter: drop-shadow(10px 5px 25px rgb(44, 44, 44));
+    width: 450px;
+    height: 770px;
+    filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
+    
 }
 
 .content-container {
@@ -172,7 +175,7 @@ a {
     padding: 0;
     border: 0; */
     width: 100%;
-    margin-left: 17rem;
+    margin-left: 15rem;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
