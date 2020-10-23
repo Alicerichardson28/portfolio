@@ -27,6 +27,14 @@ export default class Projects extends Component {
                     <h1 className='project-title'><u>Some of my latest work</u></h1>
                     <ul className='project-container'>
                         <li className='project-card'>
+                                 <iframe className='video' width="420" height="315"
+                                        src="https://www.youtube.com/embed/SKebje9QFBg">
+                                </iframe>
+                                <div className='content'>
+                                    <h1 className='project-name'>Volunteer speaker at WWC (Women Who Code Boulder/Denver) </h1>
+                                </div>
+                        </li>
+                        <li className='project-card'>
                                 {/* <div className='image-project'>
                                     <img className='eco-freak-project' src={ecofreak}/>
                                 </div> */}
