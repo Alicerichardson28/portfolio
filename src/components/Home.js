@@ -2,7 +2,12 @@ import React, { Component } from 'react'
 import PDF from '../picture/Alice Richardson.pdf'
 import './Home.css'
 import { Link } from 'react-router-dom';
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import Icon from './Icon'
 import Parada from '../picture/parada.png'
+
+library.add(fab)
 export default class Navbar extends Component {
     render() {
         return (
@@ -21,6 +26,8 @@ export default class Navbar extends Component {
                         </ul> 
                     <div className='name-container'>
                         <div className='content-container'>
+                            <Icon/>
+                            <br></br>
                             <h1 className='name'>Alice Richardson</h1>
                             <h2 className='job-title'>Full stack developer / Designer</h2>
                             <br></br>
