@@ -48,11 +48,11 @@ export default class Blogs extends Component {
                             <li className='nav-list'>Blogs</li>
                         </Link>
                         <Link to="/projects">
-                            <li className='nav-list'>Projects</li>
+                            <li className='nav-list'>My works</li>
                         </Link>
                     </ul> 
                 </div>
-                <h1 className='blog-title'><u>latest blogs</u></h1>
+                <h1 className='blog-title'><u>Latest blogs</u></h1>
                 <div className='blog-container'>
                     {showBlogs}
                 </div>

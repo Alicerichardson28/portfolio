@@ -21,7 +21,7 @@ export default class Navbar extends Component {
                                     <li className='nav-list-home'>Blogs</li>
                                 </Link>
                                 <Link to="/projects">
-                                    <li className='nav-list-home'>Projects</li>
+                                    <li className='nav-list-home'>My works</li>
                                 </Link>
                         </ul> 
                     <div className='name-container'>

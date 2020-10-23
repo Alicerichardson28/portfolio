@@ -18,7 +18,7 @@ export default class About extends Component {
                                         <li className='nav-list'>Blogs</li>
                                     </Link>
                                     <Link to="/projects">
-                                        <li className='nav-list'>Projects</li>
+                                        <li className='nav-list'>My works</li>
                                     </Link>
                             </ul> 
                 </div>
