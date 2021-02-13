@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import Home from './components/Home'
-import About from './components/About'
+// import About from './components/About'
 import Blogs from './components/Blogs'
 import Projects from './components/Projects'
 import './App.css';
@@ -12,7 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Route exact path ="/" component={Home}/>
-        <Route exact path ="/about" component={About}/>
+        {/* <Route exact path ="/about" component={About}/> */}
         <Route exact path ="/blogs" component={Blogs}/>
         <Route exact path ="/projects" component={Projects}/>
       </Router>

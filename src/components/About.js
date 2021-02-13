@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './About.css'
+// import './About.css'
 import { Link } from 'react-router-dom';
 import alice from '../picture/Alice.jpg'
 import fadeIn from 'react-animations/lib/fade-in'
