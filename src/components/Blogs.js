@@ -41,9 +41,6 @@ export default class Blogs extends Component {
                 <div className='navbar-bg'>
                     <Link to='/'><h2 className='logo'>A</h2></Link>
                     <ul className='nav-container'>
-                        <Link to="/about">
-                            <li className='nav-list'>About</li>
-                        </Link>
                         <Link to="/blogs">
                             <li className='nav-list'>Blogs</li>
                         </Link>
