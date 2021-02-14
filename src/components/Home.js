@@ -53,16 +53,19 @@ export default class Navbar extends Component {
                             experience in <u>ruby on rails, javascript, react, git/github, JWT, SQL </u> <br></br> 
                             <br></br>
                             <br></br>
-                            I have also done my best to build on that foundation, by continuing to push myself to to learn even more languages,<br></br>
-                            such as <u>Vue.js, MongoDB, Node.js, and AWS.</u> and I am also open to learning any new technical language as well. <br></br>
+                            I have also done my best to build on that foundation,<br></br>
+                            by continuing to push myself to to learn even more languages,<br></br>
+                            such as <u>Vue.js, MongoDB, Node.js, and AWS.</u> and I am also open <br></br> 
+                            to learning any new technical language as well. <br></br>
                             <br></br>
                             <br></br>
-                            I am personable with a talent for developing solid relationships with co-workers and clients.<br></br>
-                            My work ethic and dedication to exceeding expectations is what keeps me motivated to impress, and I continuously strive to improve my craft. 
+                            I am personable with a talent for developing solid relationships <br></br> 
+                            with co-workers and clients. My work ethic and dedication to exceeding <br></br> 
+                            expectations is what keeps me motivated to impress, and I continuously <br></br> strive to improve my craft. 
                             </p>
                     </div>
                 </div>
-                <div className='skill'>
+                {/* <div className='skill'>
                     <ul>
                         <li>Javascript</li>
                         <li>HTML</li>
@@ -77,7 +80,7 @@ export default class Navbar extends Component {
                         <li>Blog2</li>
                         <li>Blog3</li>
                     </ul>
-                </div>
+                </div> */}
             </>
         )
     }
