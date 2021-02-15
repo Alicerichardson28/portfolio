@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Icon from './Icon'
-import Parada from '../picture/parada.png'
+// import Parada from '../picture/parada.png'
 import alice from '../picture/Alice.jpg'
-// import fadeIn from 'react-animations/lib/fade-in'
-
 library.add(fab)
 export default class Navbar extends Component {
     render() {
@@ -33,9 +31,9 @@ export default class Navbar extends Component {
                             <br></br>
                             <button className='button'><a href={PDF}>Download CV</a></button>
                         </div>
-                        <div className='photo-container'>
+                        {/* <div className='photo-container'>
                             <img className='parada' src={Parada}/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id='about-container'>
