@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Noto+Sans&display=swap');
 
 
 
 .first-container {
     position: relative;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-color: rgb(31, 30, 30);
     overflow:hidden;
 }
@@ -137,52 +139,80 @@ a {
 /* about css */
 
 #about-container {
-    margin-top: 8em;
     display: flex;
+    justify-content: center;
     align-items: center;
-    /* position: relative; */
     background-image: linear-gradient(white, rgb(211, 208, 208), white);
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100vw;
 }
 
 .about {
-    margin-top: 0.5em;
-    text-decoration: underline;
-    font-size: 4em;
+    font-size: 90px;
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
 }
 
-.content {
-    width: 100%;
-    display: flex;
+.about-content {
+    max-width: 40%;
+    display: inline-flex;
+    justify-content: space-between;
     flex-direction: column;
-    align-items: center;
+    margin-left: 100px;
 }
 
-.content-about {
-    margin-top: 3em;
-    font-size: 20px;
-    font-family: 'Overpass', sans-serif;
-    margin-bottom: 7em;
+.content-about1 {
+    margin-top: 10px;
+    font-size: 27px;
+    font-weight: 600;
+    color:rgb(65, 65, 65);
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.content-about2 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 .alice-photo {
-    width: 22vw;
+    min-width: 300px;
+    width: 400px;
     border-radius: 2%;
     filter: drop-shadow(5px 5px 5px #222);
 }
 
 .alice-container {
-    width: 100%;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     border-radius: 2%;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
+}
+
+/* media query responsive */
+@media only screen and (max-width: 1080px) {
+    #about-container {
+        flex-direction: column; 
+    }
+    .about-content {
+        margin-left: 0;
+    }
+    .alice-photo {
+        margin-top: 40px;
+        width: 300px;
+        border-radius: 2%;
+        filter: drop-shadow(5px 5px 5px #222);
+    }  
 }
 
 @keyframes moveInLeft {
@@ -200,3 +230,6 @@ a {
       transform: translate(0);
     }
   }
+
+
+ 
