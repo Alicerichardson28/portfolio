@@ -1,7 +1,7 @@
 
 .container-icons ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     padding-top: 8em;
     width: 40%;

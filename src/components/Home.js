@@ -14,7 +14,6 @@ export default class Navbar extends Component {
             <>
                 <div className='first-container'>
                         <ul className='nav-container'>
-                            <a href='#about-container' className='nav-list-home'>About</a>
                                 <Link to="/blogs">
                                     <li className='nav-list-home'>Blogs</li>
                                 </Link>

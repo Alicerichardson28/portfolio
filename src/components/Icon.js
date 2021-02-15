@@ -11,9 +11,6 @@ export default function Icon() {
         <div>
             <div className='container-icons'>
                 <ul className='list-of-icons'>
-                    <a href='https://twitter.com/ParadaRichards1'>
-                    <li><FontAwesomeIcon icon={['fab', 'twitter']}/></li>
-                    </a>
                     <a href='https://github.com/Alicerichardson28'>
                     <li><FontAwesomeIcon icon={['fab', 'github']}/></li> 
                     </a>
