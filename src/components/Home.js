@@ -24,7 +24,6 @@ export default class Navbar extends Component {
                                     <li className='nav-list-home'>My works</li>
                                 </Link>
                         </ul> 
-                    <div className='name-container'>
                         <div className='content-container'>
                             <Icon/>
                             <br></br>
@@ -36,7 +35,6 @@ export default class Navbar extends Component {
                         {/* <div className='photo-container'>
                             <img className='parada' src={Parada}/>
                         </div> */}
-                    </div>
                 </div>
                 <div id='about-container'>
                     <div className='alice-container'>
