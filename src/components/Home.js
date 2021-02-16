@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Icon from './Icon'
-// import Parada from '../picture/parada.png'
+import wolf from '../picture/wolf.jpeg'
 import alice from '../picture/Alice.jpg'
 library.add(fab)
 export default class Navbar extends Component {
@@ -24,17 +24,19 @@ export default class Navbar extends Component {
                                     <li className='nav-list-home'>My works</li>
                                 </Link>
                         </ul> 
-                        <div className='content-container'>
-                            <Icon/>
-                            <br></br>
-                            <h1 className='name'>Alice Richardson</h1>
-                            <h2 className='job-title'>Full stack developer / Designer</h2>
-                            <br></br>
-                            <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download CV </a></button>
+                        <div className="name-photo-container">
+                            <div className='content-container'>
+                                <Icon/>
+                                <br></br>
+                                <h1 className='name'>Alice Richardson</h1>
+                                <h2 className='job-title'>Full stack developer / Designer</h2>
+                                <br></br>
+                                <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download CV </a></button>
+                            </div>
+                            <div className='photo-container'>
+                                <img alt="wolf" className='wolf' src={wolf}/>
+                            </div>
                         </div>
-                        {/* <div className='photo-container'>
-                            <img className='parada' src={Parada}/>
-                        </div> */}
                 </div>
                 <div id='about-container'>
                     <div className='alice-container'>

@@ -6,11 +6,18 @@
 
 
 .first-container {
-    position: relative;
+    /* position: relative; */
+    
     width: 100vw;
     height: 100vh;
     background-color: rgb(31, 30, 30);
-    overflow:hidden;
+    
+}
+
+.name-photo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .name-container {
@@ -118,20 +125,26 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 200px;
 }
 
 .photo-container {
-    margin-left: 520px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 200px;
     
     animation-name: moveInLeft;
     animation-duration: 1s;
 }
 
-.parada {
+.wolf {
     width: 320px;
     height: 750px;
     filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
-    
 }
 
 
