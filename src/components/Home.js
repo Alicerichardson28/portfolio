@@ -1,15 +1,22 @@
 import React, { Component } from 'react'
-import PDF from '../picture/Alice Richardson.pdf'
+import PDF from '../picture/Alice Richardson Resume.pdf'
 import './Home.css'
 import { Link } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Icon from './Icon'
-import wolf from '../picture/wolf.jpeg'
+import alice1 from '../picture/alice1.jpg'
+// import wolf from '../picture/wolf.jpeg'
 import alice from '../picture/Alice.jpg'
 library.add(fab)
 export default class Navbar extends Component {
     render() {
+        // let aboutBtn = document.getElementById('#about-container')
+        // let wolfImg = document.getElementsByClassName('.wolf')
+        // function imgHidden() {
+        //     if(aboutBtn === aboutBtn){
+        //     }
+        // }
         return (
             <>
                 <div className='first-container'>
@@ -34,13 +41,13 @@ export default class Navbar extends Component {
                                 <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download CV </a></button>
                             </div>
                             <div className='photo-container'>
-                                <img alt="wolf" className='wolf' src={wolf}/>
+                                <img alt="wolf" className='alice1-photo' src={alice1}/>
                             </div>
                         </div>
                 </div>
                 <div id='about-container'>
                     <div className='alice-container'>
-                        <img className='alice-photo' src={alice} alt="alice"/>
+                        <img className='alice-photo' src={alice} alt="alice" />
                     </div>
                     <div className='about-content'>
                         <h1 className='about'>about me</h1>
@@ -60,15 +67,16 @@ export default class Navbar extends Component {
                         </p>
                     </div>
                 </div>
-                {/* <div className='skill'>
-                    <ul>
+                <div className='skills-container'>
+                    <h1 className="tech-title">Technical skills</h1>
+                    <ul className="list-skill">
                         <li>Javascript</li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>React</li>
                     </ul>
                 </div>
-                <div id='blog-post'>
+                {/* <div id='blog-post'>
                     <h1>Blogs posts</h1>
                     <ul>
                         <li>Blog1</li>
