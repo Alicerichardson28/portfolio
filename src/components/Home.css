@@ -285,6 +285,8 @@ a {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    width: 100vw;
+    height: 80vh;
 }
 .card {
     width: 100px;

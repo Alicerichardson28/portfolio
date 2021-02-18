@@ -38,6 +38,9 @@ export default class Navbar extends Component {
                                 <Link to="/blogs" target="_blank" rel="noopener noreferrer">
                                     <li className='nav-list-home'>Blogs</li>
                                 </Link>
+                                <Link to="#skills-container" target="_blank" rel="noopener noreferrer">
+                                    <li className='nav-list-home'>Tools & Tech</li>
+                                </Link>
                                 <Link to="/projects" target="_blank" rel="noopener noreferrer">
                                     <li className='nav-list-home'>My works</li>
                                 </Link>
@@ -78,7 +81,7 @@ export default class Navbar extends Component {
                         </p>
                     </div>
                 </div>
-                <div className='skills-container'>
+                <div id='skills-container'>
                     <h1 className="tech-title">Tools & Technologies</h1>
                     <ul className="list-skill">
                         <div>
