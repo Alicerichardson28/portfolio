@@ -271,9 +271,9 @@ a {
 
 
   /* Technical skills */
-.skills-container {
-    width: 100vw;
-    height: 70vh;
+.tech-tools-container {
+    width: 50%;
+    height: 100%;
 }
 .tech-title {
     text-align: center;
@@ -281,20 +281,23 @@ a {
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
   }
-.list-skill {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    width: 100vw;
-    height: 80vh;
+.lists-skill {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 0;
+    margin-top: 70px;
+}
+.tech-name {
+    margin-top: 20px;
 }
 .card {
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    /* background-color: rgb(182, 182, 182); */
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+.svg {
+    width: 20%;
+}
 
  
