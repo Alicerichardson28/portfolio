@@ -135,14 +135,14 @@ export default class Navbar extends Component {
                             </li>
                         </ul>
                     </div>
-                {/* <div id='blog-post'>
+                <div id='blog-post'>
                     <h1>Blogs posts</h1>
                     <ul>
                         <li>Blog1</li>
                         <li>Blog2</li>
                         <li>Blog3</li>
                     </ul>
-                </div> */}
+                </div>
             </>
         )
     }
