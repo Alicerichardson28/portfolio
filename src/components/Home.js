@@ -82,7 +82,6 @@ export default class Navbar extends Component {
                         </p>
                     </div>
                 </div>
-                <hr></hr>
                 <div id='tech-tools-container'>
                     <h1 className="tech-title">Tools & Technologies</h1>
                         <ul className="lists-skill">
