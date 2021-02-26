@@ -9,7 +9,7 @@ export default class Projects extends Component {
     render() {
         return (
             <div>
-                <div className='navbar-bg'>
+                {/* <div className='navbar-bg'>
                     <Link to='/'><h2 className='logo'>A</h2></Link>
                     <ul className='nav-container'>
                         <Link to="/blogs">
@@ -19,7 +19,7 @@ export default class Projects extends Component {
                             <li className='nav-list'>My works</li>
                         </Link>
                     </ul> 
-                </div>
+                </div> */}
                 <div>
                     <h1 className='project-title'><u>Some of my latest work</u></h1>
                     <ul className='project-container'>

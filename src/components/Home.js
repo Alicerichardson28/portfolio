@@ -19,6 +19,7 @@ import Vscode from '../picture/vscode.svg'
 import Slack from '../picture/slack.svg'
 import Node from '../picture/nodejs.svg'
 // import wolf from '../picture/wolf.jpeg'
+import ProjectContainer from '../components/Projects'
 import alice from '../picture/Alice.jpg'
 library.add(fab)
 export default class Navbar extends Component {
@@ -42,9 +43,9 @@ export default class Navbar extends Component {
                                 <a href="#tech-tools-container" className='nav-list-home'>
                                     Tools & Tech
                                 </a>
-                                <Link to="/projects" target="_blank" rel="noopener noreferrer">
-                                    <li className='nav-list-home'>My works</li>
-                                </Link>
+                                <a href="#project-container" className='nav-list-home'>
+                                    My works
+                                </a>
                         </ul> 
                         <div className="name-photo-container">
                             <div className='content-container'>
@@ -84,61 +85,60 @@ export default class Navbar extends Component {
                 </div>
                 <div id='tech-tools-container'>
                     <h1 className="tech-title">Tools & Technologies</h1>
-                        {/* <div className="skills-container-outside"> */}
-                            {/* <div className="skills-container"> */}
-                                <ul className="lists-skill">
-                                    <li className="card">
-                                        <img src={javascript} className="svg"/>
-                                        <h1 className="tech-name">Javascript</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Html} className="svg"/>
-                                        <h1 className="tech-name">Html</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Css} className="svg"/>
-                                        <h1 className="tech-name">Css</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={ReactIcon} className="svg"/>
-                                        <h1 className="tech-name">React.js</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Npm} className="svg"/>
-                                        <h1 className="tech-name">NPM</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Bootstrap} className="svg"/>
-                                        <h1 className="tech-name">Bootstrap</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Git} className="svg"/>
-                                        <h1 className="tech-name">Git</h1>
-                                    </li>
-                                    <li className="card"> 
-                                        <img src={GitHub} className="svg"/>
-                                        <h1 className="tech-name">GitHub</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Heroku} className="svg"/>
-                                        <h1 className="tech-name">Heroku</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Vscode} className="svg"/>
-                                        <h1 className="tech-name">Vscode</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Slack} className="svg"/>
-                                        <h1 className="tech-name">Slack</h1>
-                                    </li>
-                                    <li className="card">
-                                        <img src={Node} className="svg"/>
-                                        <h1 className="tech-name">Node.js</h1>
-                                    </li>
-                                </ul>
-                            {/* </div> */}
-                        {/* </div> */}
+                        <ul className="lists-skill">
+                            <li className="card">
+                                <img src={javascript} className="svg"/>
+                                <h1 className="tech-name">Javascript</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Html} className="svg"/>
+                                <h1 className="tech-name">Html</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Css} className="svg"/>
+                                <h1 className="tech-name">Css</h1>
+                            </li>
+                            <li className="card">
+                                <img src={ReactIcon} className="svg"/>
+                                <h1 className="tech-name">React.js</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Npm} className="svg"/>
+                                <h1 className="tech-name">NPM</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Bootstrap} className="svg"/>
+                                <h1 className="tech-name">Bootstrap</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Git} className="svg"/>
+                                <h1 className="tech-name">Git</h1>
+                            </li>
+                            <li className="card"> 
+                                <img src={GitHub} className="svg"/>
+                                <h1 className="tech-name">GitHub</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Heroku} className="svg"/>
+                                <h1 className="tech-name">Heroku</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Vscode} className="svg"/>
+                                <h1 className="tech-name">Vscode</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Slack} className="svg"/>
+                                <h1 className="tech-name">Slack</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Node} className="svg"/>
+                                <h1 className="tech-name">Node.js</h1>
+                            </li>
+                        </ul>
                     </div>
+                <div id='project-container'>
+                    <ProjectContainer/>
+                </div>
                 <div id='blog-post'>
                     <h1>Blogs posts</h1>
                     <ul>

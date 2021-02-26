@@ -38,7 +38,7 @@ export default class Blogs extends Component {
         
         return (
             <div>
-                <div className='navbar-bg'>
+                {/* <div className='navbar-bg'>
                     <Link to='/'><h2 className='logo'>A</h2></Link>
                     <ul className='nav-container'>
                         <Link to="/blogs">
@@ -48,7 +48,7 @@ export default class Blogs extends Component {
                             <li className='nav-list'>My works</li>
                         </Link>
                     </ul> 
-                </div>
+                </div> */}
                 <h1 className='blog-title'><u>Latest blogs</u></h1>
                 <div className='blog-container'>
                     {showBlogs}

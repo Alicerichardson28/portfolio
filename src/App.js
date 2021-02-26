@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Router>
         <Route exact path ="/" component={Home}/>
-        <Route exact path ="/blogs" component={Blogs}/>
-        <Route exact path ="/projects" component={Projects}/>
+        {/* <Route exact path ="/blogs" component={Blogs}/>
+        <Route exact path ="/projects" component={Projects}/> */}
       </Router>
     </div>
   );
