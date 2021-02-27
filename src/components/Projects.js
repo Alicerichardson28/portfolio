@@ -4,7 +4,7 @@ export default class Projects extends Component {
     render() {
         return (
                 <div className='container'>
-                    <h1 className='project-title'><u>Some of my latest work</u></h1>
+                    <h1 className='project-title'>Some of my latest work</h1>
                     <ul className='project-container'>
                         <li className='project-card'>
                                  <iframe title="Volunteer" className='video' width="420" height="315"
@@ -21,7 +21,7 @@ export default class Projects extends Component {
                                 <div className='project-content'>
                                     <h1 className='project-name'>EcoFreak </h1>
                                     <h1 className='project-name'>Tech Stack : MEVN app
-                                        <a className='link-url' href=''> Link URL</a> 
+                                        {/* <a className='link-url' href=''> Link URL</a>  */}
                                     </h1>
                                 </div>
                         </li>
