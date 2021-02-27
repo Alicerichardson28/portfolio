@@ -9,15 +9,10 @@ import alice1 from '../picture/alice1.jpg'
 import ProjectContainer from '../components/Projects'
 import TechSkill from './TechSkill'
 import About from './About'
+import Blogs from './Blogs'
 library.add(fab)
 export default class Navbar extends Component {
     render() {
-        // let aboutBtn = document.getElementById('#about-container')
-        // let wolfImg = document.getElementsByClassName('.wolf')
-        // function imgHidden() {
-        //     if(aboutBtn === aboutBtn){
-        //     }
-        // }
         return (
             <>
                 <div className='first-container'>
@@ -31,9 +26,12 @@ export default class Navbar extends Component {
                                 <a href="#project-container" className='nav-list-home'>
                                     My works
                                 </a>
-                                <Link to="/blogs" target="_blank" rel="noopener noreferrer">
+                                <a href="#blog-post" className='nav-list-home'>
+                                    Blogs
+                                </a>
+                                {/* <Link to="/blogs" target="_blank" rel="noopener noreferrer">
                                     <li className='nav-list-home'>Blogs</li>
-                                </Link>
+                                </Link> */}
                         </ul> 
                         <div className="name-photo-container">
                             <div className='content-container'>
@@ -59,12 +57,7 @@ export default class Navbar extends Component {
                     <ProjectContainer/>
                 </div>
                 <div id='blog-post'>
-                    <h1>Blogs posts</h1>
-                    <ul>
-                        <li>Blog1</li>
-                        <li>Blog2</li>
-                        <li>Blog3</li>
-                    </ul>
+                    <Blogs/>
                 </div>
             </>
         )

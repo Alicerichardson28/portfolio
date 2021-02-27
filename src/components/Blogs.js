@@ -23,11 +23,7 @@ export default class Blogs extends Component {
                         <a href={blog.link}>
                         <ul className='blogs-ul'>
                             <li className='blogs-li'>
-                                <div className='img-container'>
-                                    <img className='img' src={blog.thumbnail} alt="blog"/>
-                                </div>
                                 <h1 className='title'>{blog.title}</h1>
-                                <h5 className='date'>{blog.pubDate}</h5>
                             </li>
                         </ul>
                         </a>
