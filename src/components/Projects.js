@@ -58,14 +58,14 @@ export default class Projects extends Component {
                                     <h1 className='project-name'>Thai Alphabet flashcard and Mix & Match game // Tech Stack : Ruby on Rails, <br></br><br></br> Javascript, HTML, CSS </h1>
                                 </div>
                         </li>     
-                        <li className='project-card'>
+                        {/* <li className='project-card'>
                                 <iframe title="Coffee Shop" className='video' width="420" height="315"
                                         src="https://www.youtube.com/embed/7_P93eDzkQs">
                                 </iframe>
                                 <div className='content'>
                                     <h1 className='project-name'>Coffee Shop // Tech Stack : Ruby on Rails, Javascript, HTML, CSS </h1>
                                 </div>
-                        </li>     
+                        </li>      */}
                     </ul>
                 </div>
             </div>

@@ -1,129 +1,106 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
-
-/* .full-stack { 
-    font-weight: 700;
-  } */
+/* about css */
 
 .about-container {
-    margin-top: 8em;
     display: flex;
-    flex-direction: row;
-    padding-left: 15rem;
-    padding-right: 10rem;
-    position: relative;
-
-    /* background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(245, 245, 244)); */
-    background-image: linear-gradient(white, rgb(211, 208, 208), white);
-    height: 607px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(white, rgb(211, 208, 208), white); */
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
 }
+
 .about {
-    margin-top: 0.5em;
-    text-decoration: underline;
-    font-size: 4em;
+    font-size: 90px;
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
 }
 
-.content-about {
-    margin-top: 3em;
-    font-size: 20px;
-    font-family: 'Overpass', sans-serif;
-    margin-bottom: 7em;
+.about-content {
+    max-width: 40%;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
-
-.logo {
-    position: absolute;
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 900;
-    margin-left: 3em;
-    margin-top: 0.5%;
-    font-family: 'Overpass', sans-serif;
+.content-about1 {
+    margin-top: 10px;
+    font-size: 27px;
+    font-weight: 600;
+    color:rgb(65, 65, 65);
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 
-.nav-container {
-    margin-left: 45%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nav-list {
-    font-weight: 700;
-    font-family: 'Overpass', sans-serif;
-    margin-top: 2em;
-    color: #ffffff;
-}
-
-.navbar-bg {
-    background-color: black;
-    height: 75px;
+.content-about2 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 .alice-photo {
-    /* margin-top: 1.5em; */
-    width: 70%;
+    min-width: 300px;
+    width: 400px;
     border-radius: 2%;
-    margin-right: 4em;
     filter: drop-shadow(5px 5px 5px #222);
 }
 
 .alice-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 2%;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
 }
+
+/* media query responsive */
+@media only screen and (max-width: 1080px) {
+    #about-container {
+        flex-direction: column; 
+    }
+    .about-content {
+        margin-left: 0;
+        max-width: 60%;
+    }
+    .alice-photo {
+        margin-top: 40px;
+        width: 300px;
+        border-radius: 2%;
+        filter: drop-shadow(5px 5px 5px #222);
+    }  
+    .about {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .content-container {
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 1500px) {
+    .wolf{
+        display: none;
+    }
+
+    .content-container {
+        align-items: center;
+    }
+}
+
 
 @keyframes moveInLeft {
     0% {
@@ -140,3 +117,6 @@ table {
       transform: translate(0);
     }
   }
+
+
+  
