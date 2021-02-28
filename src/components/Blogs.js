@@ -18,22 +18,20 @@ export default class Blogs extends Component {
         const showBlogs = this.state.blogs.map(blog => 
              {
             return ( 
-                <>
-                    <div className='blogs-container'>
-                        <a href={blog.link}>
-                        <ul className='blogs-ul'>
-                            <li className='blogs-li'>
-                                <h1 className='title'>{blog.title}</h1>
-                            </li>
-                        </ul>
-                        </a>
-                    </div>
-                </>
+                <div className='blog-container'>
+                    <a href={blog.link}>
+                    <ul className='blogs-post-container'>
+                        <li className='blogs-card'>
+                            <h1 className='title'>{blog.title}</h1>
+                        </li>
+                    </ul>
+                    </a>
+                </div>
             )
         })
         
         return (
-            <div>
+            <>
                 {/* <div className='navbar-bg'>
                     <Link to='/'><h2 className='logo'>A</h2></Link>
                     <ul className='nav-container'>
@@ -45,11 +43,11 @@ export default class Blogs extends Component {
                         </Link>
                     </ul> 
                 </div> */}
-                <h1 className='blog-title'><u>Latest blogs</u></h1>
-                <div className='blog-container'>
+                <h1 className='blog-title'>Some of my blogs post</h1>
+                <div>
                     {showBlogs}
                 </div>
-            </div>
+            </>
         )
     }
 }
