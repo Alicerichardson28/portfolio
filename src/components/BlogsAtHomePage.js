@@ -8,7 +8,7 @@ export default class BlogsAtHomePage extends Component {
     render() {
         return (
             <div className='blogs-at-home-container'>
-                <h1 className='title'>Some of my blogs post</h1>
+                <h1 className='h1-title'>Some of my blogs post</h1>
                 <div className='blogs-container'>
                     <div className='blog-card'>
                         <img src={WomenWhoCodeImg} alt='women who code' className='blog-img'/>
