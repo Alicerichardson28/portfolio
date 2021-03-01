@@ -9,7 +9,8 @@ import alice1 from '../picture/alice1.jpg'
 import ProjectContainer from '../components/Projects'
 import TechSkill from './TechSkill'
 import About from './About'
-import Blogs from './Blogs'
+// import Blogs from './Blogs'
+import BlogsAtHomePage from './BlogsAtHomePage.js'
 library.add(fab)
 export default class Navbar extends Component {
     render() {
@@ -57,7 +58,7 @@ export default class Navbar extends Component {
                     <ProjectContainer/>
                 </div>
                 <div id='blog-post'>
-                    <Blogs/>
+                    <BlogsAtHomePage />
                 </div>
             </>
         )
