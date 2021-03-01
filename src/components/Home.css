@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200;1,900&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Jost:ital,wght@1,300&family=Saira+Condensed:wght@100&display=swap');
+
 
 * {
     margin: 0;
@@ -37,14 +35,14 @@
     color: white;
     font-size: 4em;
     font-weight: 700;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Istok Web', sans-serif;
 }
 
 .job-title {
     color: white;
     font-size: 2em;
     font-weight: 200;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Istok Web', sans-serif;
 }
 
 button {
@@ -74,7 +72,7 @@ button :hover,:focus {
 
 .button {
     border-color: #3498db;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Istok Web', sans-serif;
     font-weight: 600;
     color: #fff;
     box-shadow: 
@@ -102,7 +100,7 @@ a {
 .nav-list-home {
     font-weight: 600;
     font-size: 20px;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Istok Web', sans-serif;
     margin-top: 2em;
     color: white;
     padding-right: 20px;
@@ -115,7 +113,7 @@ a {
     font-weight: 900;
     margin-left: 5em;
     margin-top: 0.5%;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Istok Web', sans-serif;
 }
 
 
