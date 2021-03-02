@@ -10,7 +10,6 @@
 .project-title {
     display: flex;
     justify-content: flex-end;
-    margin-right: 13%;
     margin-top: 100px;
     font-size: 60px;
     font-weight: 700;

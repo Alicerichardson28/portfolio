@@ -9,7 +9,7 @@ import alice1 from '../picture/alice1.jpg'
 import ProjectContainer from '../components/Projects'
 import TechSkill from './TechSkill'
 import About from './About'
-// import Blogs from './Blogs'
+import Footer from './Footer'
 import BlogsAtHomePage from './BlogsAtHomePage.js'
 library.add(fab)
 export default class Navbar extends Component {
@@ -46,7 +46,7 @@ export default class Navbar extends Component {
                                 <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download Resume </a></button>
                             </div>
                             <div className='photo-container'>
-                                <img alt="wolf" className='alice1-photo' src={alice1}/>
+                                <img alt="alice picture" className='alice1-photo' src={alice1}/>
                             </div>
                         </div>
                 </div>
@@ -61,6 +61,9 @@ export default class Navbar extends Component {
                 </div>
                 <div id='blog-post' className='section-container'>
                     <BlogsAtHomePage />
+                </div>
+                <div className='section-container'>
+                    <Footer />
                 </div>
             </>
         )

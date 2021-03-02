@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Jost:ital,wght@1,300&family=Saira+Condensed:wght@100&display=swap');
+
+* {
+    margin: 0;
+}
+#footer-container{
+    padding: 30px 30px;
+    background-color:rgba(165, 165, 165, 0.502);
+}
+
+#footer-content-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav-list-footer{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Istok Web', sans-serif;
+    margin-top: 2em;
+    padding-right: 20px;
+    font-weight: 100;
+}
+
+.year-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Istok Web', sans-serif;
+    padding-right: 20px;
+}
+
+.footer-content3-container{
+    font-size: 10px;
+}
+
+.icon{
+    color: black;
+}
