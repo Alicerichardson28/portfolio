@@ -5,12 +5,15 @@
 }
 
 #nav-container{
+    position: fixed;
     background-color:rgb(31, 30, 30);
+    z-index: 1;
 }
 #nav-content-container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 20px;
 }
 .section-container {
     width: 100%;
@@ -29,7 +32,7 @@
 
 .name-photo-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -141,20 +144,21 @@ a {
 
 .photo-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    align-items: center;
     
     animation-name: moveInLeft;
     animation-duration: 1s;
 }
 
 .alice1-photo {
-    width: 60%;
+    width: 57%;
     filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
 }
 
 #tech-tools-container {
+    padding: 20px 0;
     background-color: rgba(194, 194, 194, 0.52);
 }
 

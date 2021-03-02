@@ -43,7 +43,7 @@ export default class Navbar extends Component {
                                 <h1 className='name'>Alice Richardson</h1>
                                 <h2 className='job-title'>Full stack developer / Designer</h2>
                                 <br></br>
-                                <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download CV </a></button>
+                                <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download Resume </a></button>
                             </div>
                             <div className='photo-container'>
                                 <img alt="wolf" className='alice1-photo' src={alice1}/>

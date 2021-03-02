@@ -4,6 +4,17 @@
 * {
     margin: 0;
 }
+.blogs-title-container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 40%;
+    margin: auto;
+}
 .blogs-at-home-container {
     width: 100vw;
     height:100vh;
@@ -13,12 +24,14 @@
     align-items: center;
 }
 .blogs-container {
+    width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .h1-title {
-    font-size: 50px;
+    font-size: 25px;
+    padding: 0 50px;
     font-weight: 700;
     font-family: 'Istok Web', sans-serif;
     
@@ -35,7 +48,6 @@
     width: 250px;
     height: 240px;
     padding: 40px 20px;
-    margin-left: 100px;
     margin-top: 20px;
     background-color: rgba(212, 212, 212, 0.543);
     box-shadow: 2px 5px 5px #ccc;
