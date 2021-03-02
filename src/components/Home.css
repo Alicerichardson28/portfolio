@@ -9,11 +9,22 @@
     background-color:rgb(31, 30, 30);
     z-index: 1;
 }
+
+.dark-background {
+    background-color: #231f20;
+    transition: .5s;
+  }
+  
+  .trans-background {
+    background-color: transparent;
+    transition: .5s;
+  }
+
 #nav-content-container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .section-container {
     width: 100%;
@@ -153,7 +164,7 @@ a {
 }
 
 .alice1-photo {
-    width: 57%;
+    width: 45%;
     filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
 }
 
@@ -162,7 +173,7 @@ a {
     background-color: rgba(194, 194, 194, 0.52);
 }
 
-/* about css */
+
 
 
 

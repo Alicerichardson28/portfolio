@@ -24,6 +24,7 @@ hr {
     align-items: center;
 }
 .blogs-container {
+    margin-top: 50px;
     width: 60%;
     display: flex;
     justify-content: space-between;
