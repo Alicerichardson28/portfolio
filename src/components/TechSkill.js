@@ -16,7 +16,7 @@ import './TechSkill.css'
 export default class TechSkill extends Component {
     render() {
         return (
-            <div className='tech-container'>
+            <div className='tech-container content-container'>
                 <h1 className="tech-title">Tools & Technologies</h1>
                         <ul className="lists-skill">
                             <li className="card">

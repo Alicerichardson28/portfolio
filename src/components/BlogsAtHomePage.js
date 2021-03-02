@@ -7,7 +7,7 @@ import WebDevImg from '../picture/software developer.jpeg'
 export default class BlogsAtHomePage extends Component {
     render() {
         return (
-            <div className='blogs-at-home-container'>
+            <div className='blogs-at-home-container content-container'>
                 <h1 className='h1-title'>Some of my blogs post</h1>
                 <div className='blogs-container'>
                     <div className='blog-card'>

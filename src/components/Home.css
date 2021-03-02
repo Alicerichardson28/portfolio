@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Jost:ital,wght@1,300&family=Saira+Condensed:wght@100&display=swap');
 
-
 * {
     margin: 0;
 }
 
-
-.first-container {    
+#nav-container{
+    background-color:rgb(31, 30, 30);
+}
+#nav-content-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.section-container {
     width: 100%;
-    height: 100%;
-    background-color: rgb(31, 30, 30);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+    width: 80%;
+}
+#first-container {  
+    height: 100vh;
+    background-color: rgb(31, 30, 30); 
 }
 
 .name-photo-container{
@@ -20,14 +34,14 @@
 }
 
 .name-container {
-    position: absolute;
-    height: 670px;
+    /* position: absolute; */
+    /* height: 670px;
     top: 27%;
-    left: 17%;
+    left: 17%; */
 
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .name {
@@ -92,6 +106,7 @@ a {
 }
 
 .nav-container {
+    width: 100%;
     padding-right: 120px;
     display: flex;
     justify-content: flex-end;
@@ -117,36 +132,31 @@ a {
 }
 
 
-.content-container {
-    width: 100vw;
-    height: 100vh;
+.profile-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 200px;
 }
 
 .photo-container {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 180px;
     
     animation-name: moveInLeft;
     animation-duration: 1s;
 }
 
 .alice1-photo {
-    /* margin-top: 120px; */
-    width: 500px;
-    height: 800px;
+    width: 60%;
     filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
 }
 
+#tech-tools-container {
+    background-color: rgba(194, 194, 194, 0.52);
+}
 
 /* about css */
 

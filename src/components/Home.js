@@ -16,26 +16,28 @@ export default class Navbar extends Component {
     render() {
         return (
             <>
-                <div className='first-container'>
-                        <ul className='nav-container'>
-                                <a href="#about-section-container" className='nav-list-home'>
-                                    About
-                                </a>
-                                <a href="#tech-tools-container" className='nav-list-home'>
-                                    Tools & Tech
-                                </a>
-                                <a href="#project-container" className='nav-list-home'>
-                                    My works
-                                </a>
-                                <a href="#blog-post" className='nav-list-home'>
-                                    Blogs
-                                </a>
-                                {/* <Link to="/blogs" target="_blank" rel="noopener noreferrer">
-                                    <li className='nav-list-home'>Blogs</li>
-                                </Link> */}
-                        </ul> 
-                        <div className="name-photo-container">
-                            <div className='content-container'>
+                <div id='nav-container' className='section-container'>
+                    <div id='nav-content-container' className='content-container'>
+                        <a href="#about-section-container" className='nav-list-home'>
+                            About
+                        </a>
+                        <a href="#tech-tools-container" className='nav-list-home'>
+                            Tools & Tech
+                        </a>
+                        <a href="#project-container" className='nav-list-home'>
+                            My works
+                        </a>
+                        <a href="#blog-post" className='nav-list-home'>
+                            Blogs
+                        </a>
+                        {/* <Link to="/blogs" target="_blank" rel="noopener noreferrer">
+                            <li className='nav-list-home'>Blogs</li>
+                        </Link> */}
+                    </div>
+                </div> 
+                <div id='first-container' className='section-container'>
+                        <div className="name-photo-container content-container">
+                            <div className='profile-container'>
                                 <Icon/>
                                 <br></br>
                                 <h1 className='name'>Alice Richardson</h1>
@@ -48,16 +50,16 @@ export default class Navbar extends Component {
                             </div>
                         </div>
                 </div>
-                <div id='about-section-container'>
+                <div id='about-section-container' className='section-container'>
                     <About/>
                 </div>
-                <div id='tech-tools-container'>
+                <div id='tech-tools-container' className='section-container'>
                     <TechSkill/>
                 </div>
-                <div id='project-container'>
+                <div id='project-container' className='section-container'>
                     <ProjectContainer/>
                 </div>
-                <div id='blog-post'>
+                <div id='blog-post' className='section-container'>
                     <BlogsAtHomePage />
                 </div>
             </>

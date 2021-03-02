@@ -3,11 +3,11 @@ import './Projects.css'
 export default class Projects extends Component {
     render() {
         return (
-                <div className='container'>
+                <div className='container content-container'>
                     <h1 className='project-title'>Some of my latest work</h1>
                     <ul className='project-container'>
                         <li className='project-card'>
-                                 <iframe title="Volunteer" className='video' width="420" height="315"
+                                 <iframe title="Volunteer" className='video' 
                                         src="https://www.youtube.com/embed/SKebje9QFBg">
                                 </iframe>
                                 <div className='project-content'>
@@ -15,7 +15,7 @@ export default class Projects extends Component {
                                 </div>
                         </li>
                         <li className='project-card'>
-                                 <iframe title="EcoFreak" className='video' width="420" height="315"
+                                 <iframe title="EcoFreak" className='video' 
                                         src="https://www.youtube.com/embed/wtGFgzJXCxw">
                                 </iframe>
                                 <div className='project-content'>
@@ -26,7 +26,7 @@ export default class Projects extends Component {
                                 </div>
                         </li>
                         <li className='project-card'>
-                                <iframe title="Parking spot finder" className='video' width="420" height="315"
+                                <iframe title="Parking spot finder" className='video' 
                                         src="https://www.youtube.com/embed/QVFtjzVuoXc">
                                 </iframe>
                                 <div className='project-content'>
@@ -35,9 +35,11 @@ export default class Projects extends Component {
                                 </div>
                         </li>     
                         <li className='project-card'>
-                                <iframe title="Thai Alphabet" className='video' width="420" height="315"
-                                        src="https://www.youtube.com/embed/g_wWus-WjAk">
-                                </iframe>
+                                <div className='video-container'>
+                                    <iframe title="Thai Alphabet" className='video' 
+                                            src="https://www.youtube.com/embed/g_wWus-WjAk">
+                                    </iframe>
+                                </div>
                                 <div className='project-content'>
                                     <h1 className='project-name'>Thai Alphabet flashcard and Mix & Match game</h1>
                                     <h1 className='project-name'>Tech Stack : Ruby on Rails,Javascript, HTML, CSS </h1>

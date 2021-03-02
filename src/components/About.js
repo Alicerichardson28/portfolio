@@ -5,7 +5,7 @@ import alice from '../picture/Alice.jpg'
 export default class About extends Component {
     render() {
         return (
-            <div className='about-container'>
+            <div className='about-container content-container'>
                 <div className='alice-container'>
                         <img className='alice-photo' src={alice} alt="alice" />
                     </div>
