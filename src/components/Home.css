@@ -68,9 +68,9 @@ button {
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 0.6em;
-    color: red;
+    /* color: red; */
     cursor: pointer;
     display: flex;
     font-size: 1rem;
@@ -84,10 +84,10 @@ button {
     
 }
 
-button :hover,:focus {
+/* button :hover,:focus {
     color: #fff;
     outline: 0;
-}
+} */
 
 .button {
     border-color: #3498db;

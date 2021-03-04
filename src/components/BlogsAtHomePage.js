@@ -3,6 +3,7 @@ import './BlogsAtHomePage.css'
 import WomenWhoCodeImg from '../picture/women-who-code.png'
 import UxAndUiImg from '../picture/uxanduidesign.jpeg'
 import WebDevImg from '../picture/software developer.jpeg'
+import { Link } from 'react-router-dom';
 
 export default class BlogsAtHomePage extends Component {
     render() {
@@ -45,8 +46,12 @@ export default class BlogsAtHomePage extends Component {
                         </div>
                     </div>
                 </div>
+                <button className='more-blog-button'>
+                    <a href='' className='link-more-blog'>More</a>
+                </button>
             </div>
         )
     }
 }
+
 
