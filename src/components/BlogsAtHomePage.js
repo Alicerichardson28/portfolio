@@ -46,9 +46,11 @@ export default class BlogsAtHomePage extends Component {
                         </div>
                     </div>
                 </div>
-                <button className='more-blog-button'>
-                    <a href='' className='link-more-blog'>More</a>
-                </button>
+                <div className='btn-container'>
+                    <button className='more-blog-button'>
+                        <a href='' className='link-more-blog'>View More Blogs</a>
+                    </button>
+                </div>
             </div>
         )
     }
