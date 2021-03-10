@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import './Blogs.css'
-import Home from './Home'
-
 
 export default class Blogs extends Component {
     state ={
@@ -16,17 +14,17 @@ export default class Blogs extends Component {
     }
 
     render() {
-        const showBlogs = this.state.blogs.map(blog => 
+        const showBlogs = this.state.blogs.map((blog, index) => 
              {
             return ( 
                 <div className='blog-container'>
-                    <a href={blog.link}>
                     <ul className='blogs-post-container'>
-                        <li className='blogs-card'>
-                            <h1 className='title'>{blog.title}</h1>
+                        <li className='blogs-card' key={index}>
+                            <a href={blog.link} target="_blank" rel="noopener noreferrer">
+                                <h1 className='title'>{blog.title}</h1>
+                            </a>
                         </li>
                     </ul>
-                    </a>
                 </div>
             )
         })
