@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Blogs.css'
-import { Link } from 'react-router-dom';
+import Home from './Home'
+
 
 export default class Blogs extends Component {
     state ={
@@ -32,17 +33,6 @@ export default class Blogs extends Component {
         
         return (
             <>
-                {/* <div className='navbar-bg'>
-                    <Link to='/'><h2 className='logo'>A</h2></Link>
-                    <ul className='nav-container'>
-                        <Link to="/blogs">
-                            <li className='nav-list'>Blogs</li>
-                        </Link>
-                        <Link to="/projects">
-                            <li className='nav-list'>My works</li>
-                        </Link>
-                    </ul> 
-                </div> */}
                 <h1 className='blog-title'>Some of my blogs post</h1>
                 <div>
                     {showBlogs}

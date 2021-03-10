@@ -5,6 +5,8 @@ import UxAndUiImg from '../picture/uxanduidesign.jpeg'
 import WebDevImg from '../picture/software developer.jpeg'
 import { Link } from 'react-router-dom';
 
+
+
 export default class BlogsAtHomePage extends Component {
     render() {
         return (
@@ -48,7 +50,7 @@ export default class BlogsAtHomePage extends Component {
                 </div>
                 <div className='btn-container'>
                     <button className='more-blog-button'>
-                        <a href='' className='link-more-blog'>View More Blogs</a>
+                        <Link to="/blogs" className='link-more-blog'>View More Blogs</Link>
                     </button>
                 </div>
             </div>
