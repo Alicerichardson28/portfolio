@@ -2,19 +2,27 @@
     margin: 0;
 }
 
-.blog-container{
-    width: 100%;
-}
-
-.blogs-post-container {
+.big-blogs-container{
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, auto);
-    list-style-type: none;
-    padding: 0;
+    grid-gap: 50px;
 }
 
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
 .blogs-card {
-    width: 50%;
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     -webkit-filter: drop-shadow(5px 5px 5px rgb(133, 133, 133) );
     filter: drop-shadow(5px 5px 5px rgb(148, 148, 148));
