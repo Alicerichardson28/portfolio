@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import PDF from '../picture/Alice Richardson Resume.pdf'
 import './Home.css'
-import { Link } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Icon from './Icon'
@@ -31,9 +30,6 @@ export default class Navbar extends Component {
                         <a href="#blog-post" className='nav-list-home'>
                             Blogs
                         </a>
-                        {/* <Link to="/blogs" target="_blank" rel="noopener noreferrer">
-                            <li className='nav-list-home'>Blogs</li>
-                        </Link> */}
                     </div>
                 </div> 
                 <div id='first-container' className='section-container'>
@@ -42,7 +38,8 @@ export default class Navbar extends Component {
                                 <Icon/>
                                 <br></br>
                                 <h1 className='name'>Alice Richardson</h1>
-                                <h2 className='job-title'>Full stack developer / Designer</h2>
+                                <h2 className='job-title'>Frontend & Full stack developer</h2>
+                                <h3 className='job-title-h3'>UX & UI Designer</h3>
                                 <br></br>
                                 <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download Resume </a></button>
                             </div>

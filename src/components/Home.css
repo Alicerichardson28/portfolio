@@ -39,14 +39,8 @@
 }
 
 .name-container {
-    /* position: absolute; */
-    /* height: 670px;
-    top: 27%;
-    left: 17%; */
-
     display: flex;
     justify-content: space-between;
-    /* overflow: hidden; */
 }
 
 .name {
@@ -59,7 +53,14 @@
 
 .job-title {
     color: white;
-    font-size: 2em;
+    font-size: 34px;
+    font-weight: 200;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.job-title-h3{
+    color: white;
+    font-size: 26px;
     font-weight: 200;
     font-family: 'Istok Web', sans-serif;
 }
@@ -146,7 +147,6 @@ a {
 
 .photo-container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: flex-end;
     align-items: center;
     

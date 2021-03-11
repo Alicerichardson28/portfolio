@@ -28,7 +28,7 @@ export default class Blogs extends Component {
         })
         
         return (
-        <>
+        <>   
             <h1 className='blog-title'>Some of my blogs post</h1>
             <div className='big-blogs-container'>
                 {showBlogs}

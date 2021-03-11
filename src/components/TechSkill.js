@@ -11,6 +11,8 @@ import Heroku from '../picture/heroku.svg'
 import Vscode from '../picture/vscode.svg'
 import Slack from '../picture/slack.svg'
 import Node from '../picture/nodejs.svg'
+import Figma from '../picture/Figma.jpeg'
+import Ruby from '../picture/ruby-on-rails .png'
 import './TechSkill.css'
 
 export default class TechSkill extends Component {
@@ -36,12 +38,24 @@ export default class TechSkill extends Component {
                                 <h1 className="tech-name">React.js</h1>
                             </li>
                             <li className="card">
-                                <img src={Npm} className="svg"/>
-                                <h1 className="tech-name">NPM</h1>
+                                <img src={Node} className="svg"/>
+                                <h1 className="tech-name">Node.js</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Ruby} className="svg"/>
+                                <h1 className="tech-name">Ruby on Rails</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Figma} className="figma-svg"/>
+                                <h1 className="tech-name">Figma</h1>
                             </li>
                             <li className="card">
                                 <img src={Bootstrap} className="svg"/>
                                 <h1 className="tech-name">Bootstrap</h1>
+                            </li>
+                            <li className="card">
+                                <img src={Npm} className="svg"/>
+                                <h1 className="tech-name">NPM</h1>
                             </li>
                             <li className="card">
                                 <img src={Git} className="svg"/>
@@ -62,10 +76,6 @@ export default class TechSkill extends Component {
                             <li className="card">
                                 <img src={Slack} className="svg"/>
                                 <h1 className="tech-name">Slack</h1>
-                            </li>
-                            <li className="card">
-                                <img src={Node} className="svg"/>
-                                <h1 className="tech-name">Node.js</h1>
                             </li>
                         </ul>
             </div>

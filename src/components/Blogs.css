@@ -18,14 +18,14 @@
 
 
 .blogs-card {
-    width: 70%;
+    width: 80%;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     -webkit-filter: drop-shadow(5px 5px 5px rgb(133, 133, 133) );
-    filter: drop-shadow(5px 5px 5px rgb(148, 148, 148));
+    filter: drop-shadow(5px 5px 5px rgba(148, 148, 148, 0.413));
 }
 
 .title {
@@ -50,3 +50,5 @@
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
 }
+
+
