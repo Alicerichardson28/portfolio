@@ -69,9 +69,7 @@ button {
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
-    /* border: 2px solid red; */
     border-radius: 0.6em;
-    /* color: red; */
     cursor: pointer;
     display: flex;
     font-size: 1rem;
@@ -81,14 +79,8 @@ button {
     padding: 0.7em 1.7em;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
-
-/* button :hover,:focus {
-    color: #fff;
-    outline: 0;
-} */
 
 .button {
     border-color: #3498db;
@@ -97,8 +89,7 @@ button {
     color: #fff;
     box-shadow: 
         0 0 40px 40px#3498db inset, 0 0 0 0 #3498db;
-    transition: all 150ms ease-in-out;
-    
+    transition: all 150ms ease-in-out;  
 }
 
 .button:hover {
@@ -163,6 +154,47 @@ a {
     padding: 20px 0;
     background-color: rgba(194, 194, 194, 0.52);
 }
+
+
+/* responsive Mobile screen */
+@media screen and (min-width: 375px) {
+    #nav-container {
+        display: none;
+    }
+    .alice1-photo {
+        display: none;
+    }
+    .name-photo-container{
+        justify-content: center;
+    }
+    .name {
+        width: 300px;
+        font-size: 28px;
+    }
+    .job-title {
+        font-size: 21px;
+    }
+    .job-title-h3{
+        font-size: 21px;
+    }
+}
+/* responsive Tablet screen */
+@media screen and (min-width: 768px) {
+    .alice1-photo {
+        display: none;
+    }
+    .name-photo-container{
+        justify-content: center;
+    }
+}
+/* responsive Laptop screen */
+@media screen and (min-width: 1400px) {
+    .alice1-photo {
+        width: 70%;
+        filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
+    }
+}
+
 
 
 
