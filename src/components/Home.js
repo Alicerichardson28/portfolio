@@ -17,7 +17,8 @@ export default class Navbar extends Component {
         return (
             <>
                 <div id='nav-container' className='section-container'>
-                    <div id='nav-content-container' className='content-container'>
+                    {/* <div id='nav-content-container' className='content-container'> */}
+                    <div id='nav-content-container'>
                         <a href="#about-section-container" className='nav-list-home'>
                             About
                         </a>

@@ -12,7 +12,7 @@
   }
 
    /* responsive Mobile screen */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .list-of-icons{
     padding: 0;
   }
@@ -21,11 +21,11 @@
   }
 }
 /* responsive Tablet screen */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   
 }
 /* responsive Laptop screen */
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1400px) {
 
 }
 

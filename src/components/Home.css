@@ -8,13 +8,18 @@
     position: fixed;
     background-color:rgb(31, 30, 30);
     z-index: 1;
+    display: block;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #nav-content-container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    padding: 0 140px;
 }
 .section-container {
     width: 100%;
@@ -33,6 +38,7 @@
 }
 
 .name-photo-container{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,7 +119,6 @@ a {
     font-weight: 600;
     font-size: 20px;
     font-family: 'Istok Web', sans-serif;
-    margin-top: 2em;
     color: white;
     padding-right: 20px;
 }
@@ -146,7 +151,8 @@ a {
 }
 
 .alice1-photo {
-    width: 45%;
+    display: block;
+    width: 40%;
     filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
 }
 
@@ -157,7 +163,7 @@ a {
 
 
 /* responsive Mobile screen */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     #nav-container {
         display: none;
     }
@@ -179,16 +185,26 @@ a {
     }
 }
 /* responsive Tablet screen */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .alice1-photo {
         display: none;
     }
     .name-photo-container{
         justify-content: center;
     }
+    .section-container {
+        width: auto;
+    }
+    #nav-content-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 140px 0 120px;
+    }
+   
 }
 /* responsive Laptop screen */
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .alice1-photo {
         width: 70%;
         filter: drop-shadow(10px 5px 25px rgb(29, 29, 29));
