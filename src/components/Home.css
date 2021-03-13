@@ -184,6 +184,115 @@ a {
         font-size: 21px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    #nav-container {
+      min-width: 90vw;
+    }
+
+    .nav-list-home {
+      display: none;
+    }
+  
+    .menu-btn {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45px;
+      height: 60px;
+      cursor: pointer;
+      transition: all .5s ease-in-out;
+    }
+  
+    .menu-btn__burger {
+      width: 45px;
+      height: 4px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out;
+    }
+  
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+      content: '';
+      position: absolute;
+      width: 45px;
+      height: 4px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out;
+    }
+  
+    .menu-btn__burger::before {
+      transform: translateY(-16px);
+    }
+  
+    .menu-btn__burger::after {
+      transform: translateY(16px);
+    }
+  
+    .nav-sidebar.close {
+        display: none;
+    }
+  
+    /* ANIMATION */
+    .menu-btn.open .menu-btn__burger {
+      transform: translateX(-50px);
+      background: transparent;
+      box-shadow: none;
+    }
+  
+    .menu-btn.open .menu-btn__burger::before {
+      transform: rotate(45deg) translate(35px, -35px);
+    }
+  
+    .menu-btn.open .menu-btn__burger::after {
+      transform: rotate(-45deg) translate(35px, 35px);
+    }
+  
+    .nav-sidebar {
+      display: block;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      height: calc(100vh - 100px);
+      padding: 0 5px;
+      background-color: #231f20;
+      z-index: -999;
+      transition: all 0.3npm starts ease-out;
+      opacity: 0;
+    }
+  
+    .nav-sidebar.open {
+      z-index: 2;
+      opacity: 1;
+    }
+  
+    .nav-sidebar ul {
+      padding-top: 15px;
+      text-align: center;
+    }
+  
+    .nav-sidebar ul li {
+      line-height: 60px;
+      list-style: none;
+      cursor: pointer;
+    }
+  
+    .nav-sidebar ul li a {
+      display: block;
+      height: 60px;
+      padding: 0 10px;
+      text-decoration: none;
+      color: white;
+      margin-bottom: 30px;
+      font-family: "Permanent Marker";
+      font-size: 35px;
+      line-height: 35px;
+    }
+}
 /* responsive Tablet screen */
 @media screen and (max-width: 768px) {
     .alice1-photo {
