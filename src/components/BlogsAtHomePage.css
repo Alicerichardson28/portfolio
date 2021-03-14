@@ -95,3 +95,26 @@ hr {
 .link-more-blog{
   color: rgb(50, 50, 50);
 }
+
+ /* responsive Mobile screen */
+ @media screen and (max-width: 375px) {
+    .blogs-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .more-blog-button{
+        /* margin-top: 70px; */
+        margin-left: 100px;
+    }
+    
+}
+/* responsive Tablet screen */
+@media screen and (max-width: 768px) {
+  
+}
+/* responsive Laptop screen */
+@media screen and (max-width: 1400px) {
+
+}

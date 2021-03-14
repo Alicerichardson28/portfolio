@@ -50,5 +50,18 @@
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
 }
-
+   /* responsive Mobile screen */
+   @media screen and (max-width: 375px) {
+  }
+  /* responsive Tablet screen */
+  @media screen and (max-width: 768px) {
+    
+  }
+  /* responsive Laptop screen */
+  @media screen and (max-width: 1400px) {
+  
+  }
+  
+  
+  
 

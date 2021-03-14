@@ -88,7 +88,7 @@
     }
     
 }
-
+/* 
 @media only screen and (max-width: 1500px) {
     .wolf{
         display: none;
@@ -97,7 +97,7 @@
     .content-container {
         align-items: center;
     }
-}
+} */
 
 
 @keyframes moveInLeft {
@@ -115,6 +115,23 @@
       transform: translate(0);
     }
   }
+
+     /* responsive Mobile screen */
+     @media screen and (max-width: 375px) {
+        .about-container {
+            flex-direction: column;
+        }
+    }
+    /* responsive Tablet screen */
+    @media screen and (max-width: 768px) {
+      
+    }
+    /* responsive Laptop screen */
+    @media screen and (max-width: 1400px) {
+    
+    }
+    
+    
 
 
   

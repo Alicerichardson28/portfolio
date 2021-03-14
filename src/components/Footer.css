@@ -38,3 +38,19 @@
 .icon{
     color: black;
 }
+
+
+/* responsive Mobile screen */
+@media screen and (max-width: 375px) {
+    #footer-container{
+       margin-top: 230px;
+    }
+}
+/* responsive Tablet screen */
+@media screen and (max-width: 768px) {
+  
+}
+/* responsive Laptop screen */
+@media screen and (max-width: 1400px) {
+
+}

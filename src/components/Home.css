@@ -188,6 +188,7 @@ a {
 @media screen and (max-width: 576px) {
     #nav-container {
       min-width: 90vw;
+      position: absolute;
     }
 
     .nav-list-home {
@@ -258,8 +259,7 @@ a {
       bottom: 0;
       width: 100vw;
       height: calc(100vh - 100px);
-      padding: 0 5px;
-      background-color: #231f20;
+      background-color:rgb(31, 30, 30);
       z-index: -999;
       transition: all 0.3npm starts ease-out;
       opacity: 0;

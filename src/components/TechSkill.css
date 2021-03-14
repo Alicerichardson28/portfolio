@@ -41,3 +41,18 @@
     width: 35%;
     border-radius: 10px;
 }
+
+    /* responsive Mobile screen */
+    @media screen and (max-width: 375px) {
+        .tech-container {
+            flex-direction: column;
+        }
+    }
+    /* responsive Tablet screen */
+    @media screen and (max-width: 768px) {
+      
+    }
+    /* responsive Laptop screen */
+    @media screen and (max-width: 1400px) {
+    
+    }
