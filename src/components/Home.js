@@ -13,11 +13,9 @@ import BlogsAtHomePage from './BlogsAtHomePage.js'
 
 library.add(fab)
 function Navbar() {
-    const [showMenu, setShowMenu] = useState(false)
-    const [showAbout, setAbout] = useState(false)
     // const [showMenu, setShowMenu] = useState(false)
-    // const [showMenu, setShowMenu] = useState(false)
-    // const [showMenu, setShowMenu] = useState(false)
+    // const [showAbout, setAbout] = useState(false)
+
     return (
         <>
             <div id='nav-container' className='section-container'>
@@ -36,18 +34,18 @@ function Navbar() {
                         Blogs
                     </a>
                 </div>
-                <div className={`menu-btn ${showMenu ? "open":""}`} onClick={() => setShowMenu(!showMenu)}>
+                {/* <div className={`menu-btn ${showMenu ? "open":""}`} onClick={() => setShowMenu(!showMenu)}>
                     <div className="menu-btn__burger"></div>
-                </div>
+                </div> */}
             </div> 
-            <div className = {`nav-sidebar ${showMenu ? "open" : "close"}`}>
+            {/* <div className = {`nav-sidebar ${showMenu ? "open" : "close"}`}>
                     <ul>
                         <li><a href="#about-section-container">About </a> </li>
                         <li><a href="#tech-tools-container">Tech & Tools</a></li>
                         <li><a href="#project-container">My Work</a></li>
                         <li><a href="#blog-post">Blogs</a></li>
                     </ul>
-                </div>
+            </div> */}
             <div id='first-container' className='section-container'>
                     <div className="name-photo-container content-container">
                         <div className='profile-container'>
