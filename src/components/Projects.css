@@ -95,6 +95,11 @@
 @media screen and (max-width: 768px) {
   
 }
+@media screen and (max-width: 1080px){
+    .project-container {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
 /* responsive Laptop screen */
 @media screen and (max-width: 1400px) {
 

@@ -20,7 +20,7 @@ function Navbar() {
         <>
             <div id='nav-container' className='section-container'>
                 {/* <div id='nav-content-container' className='content-container'> */}
-                <div id='nav-content-container'>
+                <div id='nav-content-container' className='content-container'>
                     <a href="#about-section-container" className='nav-list-home'>
                         About
                     </a>
