@@ -61,17 +61,6 @@
     animation-duration: 1s;
 }
 
-/* 
-@media only screen and (max-width: 1500px) {
-    .wolf{
-        display: none;
-    }
-
-    .content-container {
-        align-items: center;
-    }
-} */
-
 
 @keyframes moveInLeft {
     0% {
@@ -91,42 +80,86 @@
 
      /* responsive Mobile screen */
      @media screen and (max-width: 375px) {
-        .about-container {
-            width: 100%;
+        .about-content {
+            margin: 0;
+            max-width: 70%;
+        }
+        .about {
+            margin-top: 30px;
+            font-size: 45px;
         }
         .about-container {
             flex-direction: column;
+            padding: 0;
+        }
+        .alice-photo {
+            margin-top: 30px;
+            width: 200px;
+        }
+        .content-about1 {
+            letter-spacing: unset;
+            font-size: 16px;
+        }
+        .content-about2 {
+            letter-spacing: unset;
+            font-size: 16px;
+            margin-bottom: 30px;
         }
     }
     /* responsive Tablet screen */
     @media screen and (max-width: 768px) {
-        .about-container {
-            width: 100%;
+        .about-content {
+            margin: 0;
+            max-width: 70%;
+        }
+        .about {
+            margin-top: 30px;
+            font-size: 45px;
         }
         .about-container {
             flex-direction: column;
+            padding: 0;
+        }
+        .alice-photo {
+            margin-top: 30px;
+            width: 200px;
+        }
+        .content-about1 {
+            letter-spacing: unset;
+            font-size: 16px;
+        }
+        .content-about2 {
+            letter-spacing: unset;
+            font-size: 16px;
+            margin-bottom: 30px;
         }
     }
 
     @media screen and (max-width: 1080px) {
+        .about-content {
+            margin: 0;
+            max-width: 70%;
+        }
+        .about {
+            margin-top: 30px;
+            font-size: 45px;
+        }
         .about-container {
-            width: 100%;
+            flex-direction: column;
+            padding: 0;
         }
-        .about {
-            font-size: 70px;
+        .alice-photo {
+            margin-top: 30px;
+            width: 200px;
         }
-
         .content-about1 {
-            letter-spacing: 0.5px;
+            letter-spacing: unset;
+            font-size: 16px;
         }
-        
         .content-about2 {
-            letter-spacing: 0.5px;
-        }
-    }
-    @media screen and (max-width: 1170px) {
-        .about {
-            font-size: 80px;
+            letter-spacing: unset;
+            font-size: 16px;
+            margin-bottom: 30px;
         }
     }
     
