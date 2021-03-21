@@ -45,7 +45,7 @@ hr {
 }
 .blog-card {
     width: 280px;
-    height: 320px;
+    height: 370px;
     padding: 4px 4px;
     margin-top: 20px;
     background-color: rgba(232, 232, 232, 0.605);
@@ -73,7 +73,6 @@ hr {
 
 .more-blog-button{
     margin-top: 70px;
-    margin-left: 850px;
     border-color: #dfdede;
     font-family: 'Istok Web', sans-serif;
     font-weight: 600;
@@ -99,9 +98,9 @@ hr {
         justify-content: space-between;
         align-items: center;
     }
-    .more-blog-button{
+    /* .more-blog-button{
         margin-left: 100px;
-    }
+    } */
     .h1-title {
         font-size: 25px;
         padding: 0 50px;
@@ -112,9 +111,9 @@ hr {
 }
 /* responsive Tablet screen */
 @media screen and (max-width: 768px) {
-    .more-blog-button{
+    /* .more-blog-button{
         margin-left: 400px;
-    }
+    } */
     .h1-title {
         font-size: 20px;
         padding: 0 6px;
@@ -122,17 +121,19 @@ hr {
         font-family: 'Istok Web', sans-serif;   
     }
     .blogs-container {
-        margin-top: 30px;
-        width: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
     .blog-link-container {
         margin-left: 0;
     }
     .blog-card {
-        width: 190px;
+        width: 150px;
         height: 320px;
     }
     .blogs-title-container{
+        margin-top: 60px;
         width: 80%;
     }
     .topic-title {
@@ -142,11 +143,11 @@ hr {
         font-size: 12px;
     }
 }
-/* responsive Laptop screen */
-@media screen and (max-width: 1400px) {
-    .more-blog-button{
-        margin-left: 900px;
-    }
+@media screen and (max-width: 1020px) {
+    /* .more-blog-button{
+        margin-right: 150px;
+        justify-content: flex-end;
+    } */
     .h1-title {
         width: 30%;
         font-size: 18px;
@@ -161,8 +162,44 @@ hr {
         margin-left: 0;
     }
     .blog-card {
-        width: 280px;
-        height: 370px;
+        width: 195px;
+        height: 320px;
+    }
+    .blogs-title-container{
+        width: 80%;
+    }
+    .topic-title {
+        font-size: 18px;
+    }
+    .link-more-blog {
+        font-size: 16px;
+    }
+    hr {
+        width: 100%;
+        margin: 0;
+    }
+}
+/* responsive Laptop screen */
+@media screen and (max-width: 1400px) {
+    /* .more-blog-button{
+        justify-content: flex-end;
+    } */
+    .h1-title {
+        width: 30%;
+        font-size: 18px;
+        padding: 0;
+        text-align: center;
+    }
+    .blogs-container {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .blog-link-container {
+        margin-left: 0;
+    }
+    .blog-card {
+        width: 245px;
+        height: 320px;
     }
     .blogs-title-container{
         width: 80%;
