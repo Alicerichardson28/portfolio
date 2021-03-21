@@ -107,7 +107,12 @@ hr {
         font-weight: 700;
         font-family: 'Istok Web', sans-serif;   
     }
-    
+    .blogs-title-container{
+        margin-top: 30px;
+    }
+    .blogs-at-home-container {
+        padding-top: 30px;
+    }
 }
 /* responsive Tablet screen */
 @media screen and (max-width: 768px) {
