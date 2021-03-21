@@ -80,15 +80,24 @@
 
   /* responsive Mobile screen */
   @media screen and (max-width: 375px) {
+    .project-title {
+        font-size: 40px;
+        text-align: center;
+    }
     .project-container {
         display: grid;
-        grid-template-columns: repeat(1, auto);
-        grid-gap: 60px;
-        /* display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        
-        padding: 0; */
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 5px;
+        padding: 0;
+    }
+    .project-content {
+        margin-left: 10px;
+    }
+    .project-name {
+        font-size: 15px;
+    }
+    .project-card {
+        height: 300px;
     }
 }
 /* responsive Tablet screen */
