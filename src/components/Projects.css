@@ -83,11 +83,12 @@
     .project-title {
         font-size: 40px;
         text-align: center;
+        margin-bottom: 20px;
     }
     .project-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr) !important;
-        grid-gap: 5px;
+        grid-gap: 50px;
         padding: 0;
     }
     .project-content {
@@ -98,11 +99,16 @@
     }
     .project-card {
         height: 300px;
+        margin: 0;
     }
 }
 /* responsive Tablet screen */
 @media screen and (max-width: 768px) {
-  
+    .project-container {
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 10px;
+        padding: 0;
+    }
 }
 @media screen and (max-width: 1080px){
     .project-container {

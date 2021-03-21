@@ -35,8 +35,7 @@ hr {
     font-size: 25px;
     padding: 0 50px;
     font-weight: 700;
-    font-family: 'Istok Web', sans-serif;
-    
+    font-family: 'Istok Web', sans-serif;   
 }
 .topic-title {
     color: black;
@@ -103,10 +102,14 @@ hr {
         justify-content: space-between;
         align-items: center;
     }
-
     .more-blog-button{
-        /* margin-top: 70px; */
         margin-left: 100px;
+    }
+    .h1-title {
+        font-size: 25px;
+        padding: 0 50px;
+        font-weight: 700;
+        font-family: 'Istok Web', sans-serif;   
     }
     
 }
