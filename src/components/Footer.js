@@ -31,10 +31,10 @@ export default class Footer extends Component {
                         <div className='container-icons'>
                             <ul className='list-of-icons'>
                                 <a href='https://github.com/Alicerichardson28' target="_blank" rel="noopener noreferrer">
-                                <li className='li-icon'><FontAwesomeIcon className='icon' icon={['fab', 'github']}/></li> 
+                                    <li className='li-icon'><FontAwesomeIcon className='icon' icon={['fab', 'github']}/></li> 
                                 </a>
                                 <a href='https://www.linkedin.com/in/alice-richardson-dev/' target="_blank" rel="noopener noreferrer">
-                                <li className='li-icon'><FontAwesomeIcon className='icon' icon={['fab', 'linkedin']}/></li>  
+                                    <li className='li-icon'><FontAwesomeIcon className='icon' icon={['fab', 'linkedin']}/></li>  
                                 </a> 
                             </ul>
                         </div>

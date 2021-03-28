@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 import './Projects.css'
 import thaiCardProject from '../picture/thai-card.gif'
+import emperor from '../picture/emperor.gif'
 import { BiWorld } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
 
 
 
@@ -36,7 +41,6 @@ export default class Projects extends Component {
                                     </div>
                                     <h1 className='project-name'>Eco-freak is a website to educate and show what we can do to save this world and help be more green.</h1>
                                     <h1 className='project-name'><u>Tech Stack:</u> MEVN app
-                                        {/* <a className='link-url' href=''> Link URL</a>  */}
                                     </h1>
                                 </div>
                         </li>
@@ -56,13 +60,26 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <img alt='thai-card-gif' className='video' src={thaiCardProject}/>
-                                  
+                                    <img alt='thai-card-gif' className='video' src={emperor}/>
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
                                         <AiFillGithub size='27px'/>
                                         <BiWorld size='27px'/>
+                                    </div>
+                                    <h1 className='project-name'>Parking spot finder was built to find a parking spot quickly and easily.</h1>
+                                    <h1 className='project-name'><u>Tech Stack:</u> Ruby on rails, React Native(expo), Authentication (JWT)</h1>
+                                </div>
+                        </li>     
+                        <li className='project-card'>
+                                <div className='video-container'>
+                                    <img alt='thai-card-gif' className='video' src={thaiCardProject}/>
+                                </div>
+                                <div className='project-content'>
+                                    <div className='icon-container'>
+                                        <AiFillGithub size='27px'/>
+                                        <BiWorld size='27px'/>
+                           
                                     </div>
                                     <h1 className='project-name'>Web application and mix-and-match game for Thai language learning</h1>
                                     <p className='project-name'><u>Tech Stack:</u> Ruby on Rails, Javascript, HTML, CSS </p>
