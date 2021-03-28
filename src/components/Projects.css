@@ -25,7 +25,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-top: 7px;
 }
 
 .image-project {
@@ -33,7 +34,8 @@
 }
 
 .project-name {
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 17px;
     color: black;
     font-weight: 500;
     font-family: 'Istok Web', sans-serif;
@@ -76,6 +78,11 @@
     text-decoration: underline;
 }
 
+.icon-container {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
   /* responsive Mobile screen */
   @media screen and (max-width: 375px) {
     .project-title {

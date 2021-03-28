@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 import './Projects.css'
 import thaiCardProject from '../picture/thai-card.gif'
+import { BiWorld } from "react-icons/bi";
+import { AiFillGithub } from "react-icons/ai";
+
+
+
+
 export default class Projects extends Component {
     render() {
         return (
@@ -24,6 +30,10 @@ export default class Projects extends Component {
                                     </iframe>
                                 </div>
                                 <div className='project-content'>
+                                    <div className='icon-container'>
+                                        <AiFillGithub size='27px'/>
+                                        <BiWorld size='27px'/>
+                                    </div>
                                     <h1 className='project-name'><u>EcoFreak</u></h1>
                                     <h1 className='project-name'>Tech Stack: MEVN app
                                         {/* <a className='link-url' href=''> Link URL</a>  */}
@@ -37,6 +47,9 @@ export default class Projects extends Component {
                                     </iframe>
                                 </div>
                                 <div className='project-content'>
+                                    <div className='icon-container'>
+                                        <AiFillGithub size='27px'/>
+                                    </div>
                                     <h1 className='project-name'><u>Parking spot finder</u></h1>
                                     <h1 className='project-name'>Tech Stack: Ruby on rails, React Native(expo), Authentication (JWT)</h1>
                                 </div>
@@ -47,8 +60,12 @@ export default class Projects extends Component {
                                   
                                 </div>
                                 <div className='project-content'>
+                                    <div className='icon-container'>
+                                        <AiFillGithub size='27px'/>
+                                        <BiWorld size='27px'/>
+                                    </div>
                                     <h1 className='project-name'>Web application and mix-and-match game for Thai language learning</h1>
-                                    <p className='project-name'><b>Tech stack:</b> Ruby on Rails, Javascript, HTML, CSS </p>
+                                    <p className='project-name'>Tech stack: Ruby on Rails, Javascript, HTML, CSS </p>
                                 </div>
                         </li>     
                     </ul>
