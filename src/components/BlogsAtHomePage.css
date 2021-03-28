@@ -118,8 +118,12 @@ hr {
         font-family: 'Istok Web', sans-serif;   
     }
     .blogs-container {
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+    .blogs-at-home-container {
+        padding-top: 300px;
     }
     .blog-link-container {
         margin-left: 0;
