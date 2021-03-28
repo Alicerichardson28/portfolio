@@ -43,11 +43,6 @@
     display: grid;
     grid-template-columns: repeat(2, 580px);
     grid-gap: 60px;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-    padding: 0; */
 }
 
 .project-card {
@@ -61,6 +56,9 @@
 }
 
 .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 95%;
     height: 95%;
 }

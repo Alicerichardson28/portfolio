@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Projects.css'
+import thaiCardProject from '../picture/thai-card.gif'
 export default class Projects extends Component {
     render() {
         return (
@@ -42,13 +43,12 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <iframe title="Thai Alphabet" className='video' 
-                                            src="https://www.youtube.com/embed/g_wWus-WjAk">
-                                    </iframe>
+                                    <img alt='thai-card-gif' className='video' src={thaiCardProject}/>
+                                  
                                 </div>
                                 <div className='project-content'>
-                                    <h1 className='project-name'><u>Thai Alphabet flashcard and Mix & Match game</u></h1>
-                                    <h1 className='project-name'>Tech Stack: Ruby on Rails, Javascript, HTML, CSS </h1>
+                                    <h1 className='project-name'>Web application and mix-and-match game for Thai language learning</h1>
+                                    <p className='project-name'><b>Tech stack:</b> Ruby on Rails, Javascript, HTML, CSS </p>
                                 </div>
                         </li>     
                     </ul>
