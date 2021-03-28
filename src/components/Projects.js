@@ -20,7 +20,7 @@ export default class Projects extends Component {
                                     </iframe>
                                 </div>
                                 <div className='project-content'>
-                                    <h1 className='project-name'><u>Volunteer speaker at WWC </u> (Women Who Code Boulder/Denver)</h1>
+                                    <h1 className='project-name'>Volunteer speaker at WWC (Women Who Code Boulder/Denver), after finish the school I had been self-learn new tech and would love to share my experience with everyone.</h1>
                                 </div>
                         </li>
                         <li className='project-card'>
@@ -34,7 +34,7 @@ export default class Projects extends Component {
                                         <AiFillGithub size='27px'/>
                                         <BiWorld size='27px'/>
                                     </div>
-                                    <h1 className='project-name'><u>EcoFreak</u></h1>
+                                    <h1 className='project-name'>Eco-freak is a website to educate and show what we can do to save this world and help be more green.</h1>
                                     <h1 className='project-name'>Tech Stack: MEVN app
                                         {/* <a className='link-url' href=''> Link URL</a>  */}
                                     </h1>
@@ -50,7 +50,7 @@ export default class Projects extends Component {
                                     <div className='icon-container'>
                                         <AiFillGithub size='27px'/>
                                     </div>
-                                    <h1 className='project-name'><u>Parking spot finder</u></h1>
+                                    <h1 className='project-name'>Parking spot finder, this application was built to find a parking spot quickly and easily.</h1>
                                     <h1 className='project-name'>Tech Stack: Ruby on rails, React Native(expo), Authentication (JWT)</h1>
                                 </div>
                         </li>     
