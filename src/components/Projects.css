@@ -138,4 +138,8 @@
     .project-container {
         grid-template-columns: repeat(2, 470px);
     }
+    .project-title {
+        justify-content: center;
+        align-self: center;
+    }
 }

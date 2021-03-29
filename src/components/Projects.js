@@ -54,7 +54,9 @@ export default class Projects extends Component {
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
-                                        <AiFillGithub size='27px'/>
+                                        <a href="https://github.com/Alicerichardson28/Parking-spot-finder-react-native-frontend" target="_blank" rel="noopener noreferrer">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
                                     </div>
                                     <h1 className='project-name'>Parking spot finder was built to find a parking spot quickly and easily.</h1>
                                     <h1 className='project-name'><u>Tech Stack:</u> Ruby on rails, React Native(expo), Authentication (JWT)</h1>
@@ -66,8 +68,12 @@ export default class Projects extends Component {
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
-                                        <AiFillGithub size='27px'/>
-                                        <BiWorld size='27px'/>
+                                        <a href="https://github.com/Thai-Programmers-in-USA/emperor-frontend" target="_blank" rel="noopener noreferrer">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
+                                        <a href="http://emperor-frontend.us-east-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">
+                                            <BiWorld size='27px' color='black'/>  
+                                        </a>
                                     </div>
                                     <h1 className='project-name'>Parking spot finder was built to find a parking spot quickly and easily.</h1>
                                     <h1 className='project-name'><u>Tech Stack:</u> Ruby on rails, React Native(expo), Authentication (JWT)</h1>
