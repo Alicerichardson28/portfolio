@@ -55,7 +55,7 @@ function Navbar() {
                             <h2 className='job-title'>Frontend & Full stack developer</h2>
                             <h3 className='job-title-h3'>UX & UI Designer</h3>
                             <br></br>
-                            <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer">Download Resume </a></button>
+                            <button className='button'><a href={PDF} target="_blank" rel="noopener noreferrer" className='downloadResume'>Download Resume </a></button>
                         </div>
                         <div className='photo-container'>
                             <img alt="alice picture" className='alice1-photo' src={alice1}/>

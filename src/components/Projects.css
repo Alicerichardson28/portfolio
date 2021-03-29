@@ -44,6 +44,7 @@
     display: grid;
     grid-template-columns: repeat(2, 580px);
     grid-gap: 60px;
+    padding: 0;
 }
 
 .project-card {
@@ -130,5 +131,11 @@
 }
 /* responsive Laptop screen */
 @media screen and (max-width: 1400px) {
-
+    .project-card {
+        height: 500px;
+        margin: 0;
+    }
+    .project-container {
+        grid-template-columns: repeat(2, 470px);
+    }
 }

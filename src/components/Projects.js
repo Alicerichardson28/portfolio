@@ -36,7 +36,7 @@ export default class Projects extends Component {
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
-                                        <a href="https://github.com/Alicerichardson28/Mod3-Project-thai-alphabet-flashcard">
+                                        <a href="https://github.com/Alicerichardson28/eco-freak-frontend-with-Vue" target="_blank" rel="noopener noreferrer">
                                             <AiFillGithub size='27px' color='black'/>
                                         </a>
                                         <BiWorld size='27px'/>
@@ -79,9 +79,12 @@ export default class Projects extends Component {
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
-                                        <AiFillGithub size='27px'/>
-                                        <BiWorld size='27px'/>
-                           
+                                        <a href="https://github.com/Alicerichardson28/Mod3-project-thai-alphabet-frontend" target="_blank" rel="noopener noreferrer">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
+                                        <a href="https://thai-alphabet-flashcard.web.app/" target="_blank" rel="noopener noreferrer">
+                                            <BiWorld size='27px' color='black'/>  
+                                        </a>
                                     </div>
                                     <h1 className='project-name'>Web application and mix-and-match game for Thai language learning</h1>
                                     <p className='project-name'><u>Tech Stack:</u> Ruby on Rails, Javascript, HTML, CSS </p>
