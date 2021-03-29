@@ -25,8 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-left: 20px;
-    margin-top: 7px;
+    margin: 0 20px;
 }
 
 .image-project {
@@ -121,11 +120,12 @@
 }
 @media screen and (max-width: 1080px){
     .project-card {
+        width: 350px ;
         height: 500px;
         margin: 0;
     }
     .project-container {
-        grid-template-columns: repeat(2, 300px);
+        grid-template-columns: repeat(2, 400px);
     }
 }
 /* responsive Laptop screen */

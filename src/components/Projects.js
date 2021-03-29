@@ -36,7 +36,9 @@ export default class Projects extends Component {
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
-                                        <AiFillGithub size='27px'/>
+                                        <a href="https://github.com/Alicerichardson28/Mod3-Project-thai-alphabet-flashcard">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
                                         <BiWorld size='27px'/>
                                     </div>
                                     <h1 className='project-name'>Eco-freak is a website to educate and show what we can do to save this world and help be more green.</h1>
