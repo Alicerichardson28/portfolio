@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import './Projects.css'
-import thaiCardProject from '../picture/thai-card.gif'
 import emperor from '../picture/emperor.gif'
-import parkingSpotFinder from '../picture/Parking-spot-finder.gif'
-import coffee from '../picture/coffee-shop.gif'
-import ecoFreak from '../picture/Eco-freak.gif'
+import ecoFreak from '../picture/eco-freak-website.gif'
 import { BiWorld } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
 
@@ -42,7 +39,7 @@ export default class Projects extends Component {
                         </li>
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <img alt='parking-spot-finder-gif' className='video' id='parking-spot-gif' src={parkingSpotFinder}/>
+                                    <iframe src="https://giphy.com/embed/j4hgttAvY7JqqaQCgu" width="271" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
@@ -73,7 +70,8 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <img alt='thai-card-gif' className='video' src={thaiCardProject}/>
+                                <iframe src="https://giphy.com/embed/XGU2dPqwSTzn0LlDo9" width="480" height="238" frameBorder="0" className='video' allowFullScreen></iframe>
+                                    {/* <img alt='thai-card-gif' className='video' src={thaiCardProject}/> */}
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
@@ -90,7 +88,9 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <img alt='coffee-shop-gif' className='video' src={coffee}/>
+                                        <iframe src="https://giphy.com/embed/RK4c192o8h19jdJQR3" width="480" height="238" frameBorder="0" className='video' allowFullScreen>
+                                    </iframe>
+                                    {/* <img alt='coffee-shop-gif' className='video' src={coffee}/> */}
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
