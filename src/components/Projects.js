@@ -36,7 +36,7 @@ export default class Projects extends Component {
                                         {/* <BiWorld size='27px'/> */}
                                     </div>
                                     <h1 className='project-name'>Eco-freak is a website to educate and show what we can do to save this world and help be more green.</h1>
-                                    <h1 className='project-name'><u>Tech Stack:</u> MEVN app (Node express, Vue, MongoDB)
+                                    <h1 className='project-name'><u>Tech Stack:</u> MEVN app
                                     </h1>
                                 </div>
                         </li>
