@@ -51,7 +51,7 @@ function Navbar() {
                         <div className='profile-container'>
                             <Icon/>
                             <br></br>
-                            <h1 className='name'>Alice Richardson</h1>
+                            <h1 className='name'>lice Richardson</h1>
                             <h2 className='job-title'>Frontend & Full stack developer</h2>
                             <h3 className='job-title-h3'>UX & UI Designer</h3>
                             <br></br>
