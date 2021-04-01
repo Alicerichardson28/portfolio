@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6913a2cf.chunk.css",
+    "main.js": "/static/js/main.6a8112b1.chunk.js",
+    "main.js.map": "/static/js/main.6a8112b1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.58d828aa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.58d828aa.js.map",
+    "static/js/2.72cc366b.chunk.js": "/static/js/2.72cc366b.chunk.js",
+    "static/js/2.72cc366b.chunk.js.map": "/static/js/2.72cc366b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6913a2cf.chunk.css.map": "/static/css/main.6913a2cf.chunk.css.map",
+    "static/js/2.72cc366b.chunk.js.LICENSE.txt": "/static/js/2.72cc366b.chunk.js.LICENSE.txt",
+    "static/media/Alice.d5b44e4e.jpg": "/static/media/Alice.d5b44e4e.jpg",
+    "static/media/alice1.cc14c27d.jpg": "/static/media/alice1.cc14c27d.jpg",
+    "static/media/bootstrap.333f5e43.svg": "/static/media/bootstrap.333f5e43.svg",
+    "static/media/css3.9cecabbf.svg": "/static/media/css3.9cecabbf.svg",
+    "static/media/git.53130bb0.svg": "/static/media/git.53130bb0.svg",
+    "static/media/github.fad4b944.svg": "/static/media/github.fad4b944.svg",
+    "static/media/heroku.a1681264.svg": "/static/media/heroku.a1681264.svg",
+    "static/media/html5.c28bc668.svg": "/static/media/html5.c28bc668.svg",
+    "static/media/javascript.f719efab.svg": "/static/media/javascript.f719efab.svg",
+    "static/media/nodejs.7ca28bcc.svg": "/static/media/nodejs.7ca28bcc.svg",
+    "static/media/npm.2c362bda.svg": "/static/media/npm.2c362bda.svg",
+    "static/media/react.7098e271.svg": "/static/media/react.7098e271.svg",
+    "static/media/resume.7dddfb4d.pdf": "/static/media/resume.7dddfb4d.pdf",
+    "static/media/ruby-on-rails .e20d131d.png": "/static/media/ruby-on-rails .e20d131d.png",
+    "static/media/slack.d77b11e1.svg": "/static/media/slack.d77b11e1.svg",
+    "static/media/software developer.41f02890.jpeg": "/static/media/software developer.41f02890.jpeg",
+    "static/media/uxanduidesign.f661acfd.jpeg": "/static/media/uxanduidesign.f661acfd.jpeg",
+    "static/media/vscode.05f89576.svg": "/static/media/vscode.05f89576.svg",
+    "static/media/women-who-code.d227a095.png": "/static/media/women-who-code.d227a095.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58d828aa.js",
+    "static/js/2.72cc366b.chunk.js",
+    "static/css/main.6913a2cf.chunk.css",
+    "static/js/main.6a8112b1.chunk.js"
+  ]
+}
