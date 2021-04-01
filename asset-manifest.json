@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6913a2cf.chunk.css",
-    "main.js": "/static/js/main.db7872b4.chunk.js",
-    "main.js.map": "/static/js/main.db7872b4.chunk.js.map",
+    "main.js": "/static/js/main.3d83293d.chunk.js",
+    "main.js.map": "/static/js/main.3d83293d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
     "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
     "static/js/2.bc8b91d9.chunk.js": "/static/js/2.bc8b91d9.chunk.js",
@@ -22,7 +22,6 @@
     "static/media/nodejs.7ca28bcc.svg": "/static/media/nodejs.7ca28bcc.svg",
     "static/media/npm.2c362bda.svg": "/static/media/npm.2c362bda.svg",
     "static/media/react.7098e271.svg": "/static/media/react.7098e271.svg",
-    "static/media/resume.7dddfb4d.pdf": "/static/media/resume.7dddfb4d.pdf",
     "static/media/ruby-on-rails .e20d131d.png": "/static/media/ruby-on-rails .e20d131d.png",
     "static/media/slack.d77b11e1.svg": "/static/media/slack.d77b11e1.svg",
     "static/media/software developer.41f02890.jpeg": "/static/media/software developer.41f02890.jpeg",
@@ -34,6 +33,6 @@
     "static/js/runtime-main.06b5035f.js",
     "static/js/2.bc8b91d9.chunk.js",
     "static/css/main.6913a2cf.chunk.css",
-    "static/js/main.db7872b4.chunk.js"
+    "static/js/main.3d83293d.chunk.js"
   ]
 }
