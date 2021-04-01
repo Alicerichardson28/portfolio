@@ -22,59 +22,59 @@ export default class TechSkill extends Component {
                 <h1 className="tech-title">Tools & Technologies</h1>
                         <ul className="lists-skill">
                             <li className="card">
-                                <img src={javascript} className="svg"/>
+                                <img alt="JS" src={javascript} className="svg"/>
                                 <h1 className="tech-name">Javascript</h1>
                             </li>
                             <li className="card">
-                                <img src={Html} className="svg"/>
+                                <img alt="html" src={Html} className="svg"/>
                                 <h1 className="tech-name">Html</h1>
                             </li>
                             <li className="card">
-                                <img src={Css} className="svg"/>
+                                <img alt="css" src={Css} className="svg"/>
                                 <h1 className="tech-name">Css</h1>
                             </li>
                             <li className="card">
-                                <img src={ReactIcon} className="svg"/>
+                                <img alt="react" src={ReactIcon} className="svg"/>
                                 <h1 className="tech-name">React.js</h1>
                             </li>
                             <li className="card">
-                                <img src={Node} className="svg"/>
+                                <img alt="node" src={Node} className="svg"/>
                                 <h1 className="tech-name">Node.js</h1>
                             </li>
                             <li className="card">
-                                <img src={Ruby} className="svg"/>
+                                <img alt="ruby" src={Ruby} className="svg"/>
                                 <h1 className="tech-name">Ruby on Rails</h1>
                             </li>
                             <li className="card">
-                                <img src={Figma} className="figma-svg"/>
+                                <img alt="figma" src={Figma} className="figma-svg"/>
                                 <h1 className="tech-name">Figma</h1>
                             </li>
                             <li className="card">
-                                <img src={Bootstrap} className="svg"/>
+                                <img alt="bootstrap" src={Bootstrap} className="svg"/>
                                 <h1 className="tech-name">Bootstrap</h1>
                             </li>
                             <li className="card">
-                                <img src={Npm} className="svg"/>
+                                <img alt="npm" src={Npm} className="svg"/>
                                 <h1 className="tech-name">NPM</h1>
                             </li>
                             <li className="card">
-                                <img src={Git} className="svg"/>
+                                <img alt="git" src={Git} className="svg"/>
                                 <h1 className="tech-name">Git</h1>
                             </li>
                             <li className="card"> 
-                                <img src={GitHub} className="svg"/>
+                                <img alt="github" src={GitHub} className="svg"/>
                                 <h1 className="tech-name">GitHub</h1>
                             </li>
                             <li className="card">
-                                <img src={Heroku} className="svg"/>
+                                <img alt="heroku" src={Heroku} className="svg"/>
                                 <h1 className="tech-name">Heroku</h1>
                             </li>
                             <li className="card">
-                                <img src={Vscode} className="svg"/>
+                                <img alt="Vscode" src={Vscode} className="svg"/>
                                 <h1 className="tech-name">Vscode</h1>
                             </li>
                             <li className="card">
-                                <img src={Slack} className="svg"/>
+                                <img alt="slack" src={Slack} className="svg"/>
                                 <h1 className="tech-name">Slack</h1>
                             </li>
                         </ul>

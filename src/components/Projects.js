@@ -21,7 +21,7 @@ export default class Projects extends Component {
                         </li>
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <iframe src="https://giphy.com/embed/Ci3pQjENHmpCCH6WoK" width="480" height="233" frameBorder="0" className="video" allowFullScreen></iframe>
+                                    <iframe title='eco-freak' src="https://giphy.com/embed/Ci3pQjENHmpCCH6WoK" width="480" height="233" frameBorder="0" className="video" allowFullScreen></iframe>
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
@@ -37,7 +37,7 @@ export default class Projects extends Component {
                         </li>
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <iframe src="https://giphy.com/embed/j4hgttAvY7JqqaQCgu" width="271" height="280" frameBorder="0" className="video" allowFullScreen></iframe>
+                                    <iframe title='parking-spot' src="https://giphy.com/embed/j4hgttAvY7JqqaQCgu" width="271" height="280" frameBorder="0" className="video" allowFullScreen></iframe>
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
@@ -51,7 +51,7 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                    <iframe src="https://giphy.com/embed/p7Ztl6PR3uhgB20E7S" width="480" height="228" frameBorder="0" className="video" allowFullScreen></iframe>
+                                    <iframe title='emperor' src="https://giphy.com/embed/p7Ztl6PR3uhgB20E7S" width="480" height="228" frameBorder="0" className="video" allowFullScreen></iframe>
                                 </div>
                                 <div className='project-content'>
                                     <div className='icon-container'>
@@ -68,7 +68,7 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                <iframe src="https://giphy.com/embed/XGU2dPqwSTzn0LlDo9" width="480" height="238" frameBorder="0" className='video' allowFullScreen></iframe>
+                                <iframe title='thai-alphabet' src="https://giphy.com/embed/XGU2dPqwSTzn0LlDo9" width="480" height="238" frameBorder="0" className='video' allowFullScreen></iframe>
                                     {/* <img alt='thai-card-gif' className='video' src={thaiCardProject}/> */}
                                 </div>
                                 <div className='project-content'>
@@ -86,7 +86,7 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                        <iframe src="https://giphy.com/embed/RK4c192o8h19jdJQR3" width="480" height="238" frameBorder="0" className='video' allowFullScreen>
+                                        <iframe title='coffee-shop' src="https://giphy.com/embed/RK4c192o8h19jdJQR3" width="480" height="238" frameBorder="0" className='video' allowFullScreen>
                                     </iframe>
                                 </div>
                                 <div className='project-content'>
