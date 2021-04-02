@@ -43,7 +43,7 @@
 /* responsive Mobile screen */
 @media screen and (max-width: 375px) {
     #footer-container{
-       margin-top: 400px;
+       margin-top: 600px;
     }
     #footer-content-container{
         flex-direction: column;
