@@ -13,7 +13,7 @@ export default function Icon() {
                 <ul className='list-of-icons'>
                     <a 
                         href='https://github.com/Alicerichardson28' 
-                        aria-label= "github" 
+                        aria-label= "take a look of my github" 
                         target="_blank" 
                         rel="noopener noreferrer" >
                             <li><FontAwesomeIcon 
@@ -23,7 +23,7 @@ export default function Icon() {
                     </a>
                     <a 
                         href='https://www.linkedin.com/in/alice-richardson-dev/' 
-                        aria-label= "linkedIn" 
+                        aria-label= "connect with me on linkedIn" 
                         target="_blank" 
                         rel="noopener noreferrer">
                             <li>

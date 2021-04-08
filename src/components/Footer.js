@@ -27,11 +27,25 @@ export default class Footer extends Component {
                     <div className='footer-content3-container'>
                         <div className='container-icons'>
                             <ul className='list-of-icons'>
-                                <a href='https://github.com/Alicerichardson28' target="_blank" rel="noopener noreferrer">
-                                    <li className='li-icon'><FontAwesomeIcon className='icon' icon={['fab', 'github']}/></li> 
+                                <a 
+                                    aria-label= "take a look of my github" 
+                                    href='https://github.com/Alicerichardson28' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"  
+                                >
+                                        <li className='li-icon'>
+                                            <FontAwesomeIcon className='icon' icon={['fab', 'github']}/>
+                                        </li> 
                                 </a>
-                                <a href='https://www.linkedin.com/in/alice-richardson-dev/' target="_blank" rel="noopener noreferrer">
-                                    <li className='li-icon'><FontAwesomeIcon className='icon' icon={['fab', 'linkedin']}/></li>  
+                                <a 
+                                    aria-label= "connect with me on linkedIn" 
+                                    href='https://www.linkedin.com/in/alice-richardson-dev/' 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    <li className='li-icon'>
+                                        <FontAwesomeIcon className='icon' icon={['fab', 'linkedin']}/>
+                                    </li>  
                                 </a> 
                             </ul>
                         </div>
