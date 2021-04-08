@@ -228,7 +228,7 @@ a {
         width: 1080px;
     }
     #nav-content-container{
-        padding: 0;
+        display: none;
     }
 }
 

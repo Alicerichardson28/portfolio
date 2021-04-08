@@ -11,11 +11,26 @@ export default function Icon() {
         <div>
             <div className='container-icons'>
                 <ul className='list-of-icons'>
-                    <a href='https://github.com/Alicerichardson28' target="_blank" rel="noopener noreferrer">
-                    <li><FontAwesomeIcon icon={['fab', 'github']} color='white'/></li> 
+                    <a 
+                        href='https://github.com/Alicerichardson28' 
+                        aria-label= "github" 
+                        target="_blank" 
+                        rel="noopener noreferrer" >
+                            <li><FontAwesomeIcon 
+                                icon={['fab', 'github']} 
+                                color='white'/>
+                            </li> 
                     </a>
-                    <a href='https://www.linkedin.com/in/alice-richardson-dev/' target="_blank" rel="noopener noreferrer">
-                    <li><FontAwesomeIcon icon={['fab', 'linkedin']} color='white'/></li>  
+                    <a 
+                        href='https://www.linkedin.com/in/alice-richardson-dev/' 
+                        aria-label= "linkedIn" 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                            <li>
+                                <FontAwesomeIcon 
+                                icon={['fab', 'linkedin']} 
+                                color='white'/>
+                            </li>  
                     </a> 
                 </ul>
             </div>
