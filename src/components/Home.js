@@ -19,7 +19,6 @@ function Navbar() {
     return (
         <>
             <div id='nav-container' className='section-container'>
-                {/* <div id='nav-content-container' className='content-container'> */}
                 <div id='nav-content-container' className='content-container'>
                     <a href="#about-section-container" className='nav-list-home'>
                         About
@@ -34,26 +33,15 @@ function Navbar() {
                         Blogs
                     </a>
                 </div>
-                {/* <div className={`menu-btn ${showMenu ? "open":""}`} onClick={() => setShowMenu(!showMenu)}>
-                    <div className="menu-btn__burger"></div>
-                </div> */}
             </div> 
-            {/* <div className = {`nav-sidebar ${showMenu ? "open" : "close"}`}>
-                    <ul>
-                        <li><a href="#about-section-container">About </a> </li>
-                        <li><a href="#tech-tools-container">Tech & Tools</a></li>
-                        <li><a href="#project-container">My Work</a></li>
-                        <li><a href="#blog-post">Blogs</a></li>
-                    </ul>
-            </div> */}
             <div id='first-container' className='section-container'>
                     <div className="name-photo-container content-container">
                         <div className='profile-container'>
                             <Icon/>
                             <br></br>
-                            <h1 className='name'>Alice Richardson</h1>
-                            <h2 className='job-title'>Frontend & Full stack developer</h2>
-                            <h3 className='job-title-h3'>UX & UI Designer</h3>
+                            <p className='name'>Alice Richardson</p>
+                            <p className='job-title'>Frontend & Full stack developer</p>
+                            <p className='job-title-h3'>UX & UI Designer</p>
                             <br></br>
                             <button className='button'><a href={resume} target="_blank" rel="noopener noreferrer" className='downloadResume'>View Resume </a></button>
                         </div>
