@@ -11,16 +11,32 @@ export default class Footer extends Component {
                         <h1 className='year-title'>@2021 Alice Richardson</h1>
                     </div>
                     <div className='footer-content2-container'>
-                            <a href="#about-section-container" className='nav-list-footer'>
+                            <a 
+                                aria-label= "section about myself" 
+                                href="#about-section-container" 
+                                className='nav-list-footer'
+                            >
                                 About
                             </a>
-                            <a href="#tech-tools-container" className='nav-list-footer'>
+                            <a 
+                                aria-label= "Technical skills"
+                                href="#tech-tools-container" 
+                                className='nav-list-footer'
+                            >
                                 Tools & Tech
                             </a>
-                            <a href="#project-container" className='nav-list-footer'>
+                            <a 
+                                aria-label= "section about my project"
+                                href="#project-container" 
+                                className='nav-list-footer'
+                            >
                                 My works
                             </a>
-                            <a href="#blog-post" className='nav-list-footer'>
+                            <a 
+                                aria-label= "section about my personal blog post"
+                                href="#blog-post"
+                                className='nav-list-footer'
+                            >
                                 Blogs
                             </a>
                     </div>
