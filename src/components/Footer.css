@@ -4,6 +4,7 @@
     margin: 0;
 }
 #footer-container{
+    margin-top: 70px;
     padding: 30px 30px;
     background-color:rgba(165, 165, 165, 0.502);
 }

@@ -50,7 +50,13 @@ export default class BlogsAtHomePage extends Component {
                 </div>
                 <div className='btn-container'>
                     <button className='more-blog-button' aria-expanded="false">
-                        <Link to="/blogs" className='link-more-blog' target="_blank" rel="noopener noreferrer">View More Blogs</Link>
+                        <Link 
+                            to="/blogs" 
+                            className='link-more-blog' 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                                View More Blogs
+                        </Link>
                     </button>
                 </div>
             </div>

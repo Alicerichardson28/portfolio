@@ -80,6 +80,22 @@ hr {
     box-shadow: 
         0 0 40px 40px#94949446 inset, 0 0 0 0 #e6e6e6;
     transition: all 150ms ease-in-out;
+
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0.7em 1.7em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase; 
 }
 
 .more-blog-button:hover {
