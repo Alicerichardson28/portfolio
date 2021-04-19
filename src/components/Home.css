@@ -72,13 +72,27 @@
     font-family: 'Istok Web', sans-serif;
 }
 
-button {
+a {
+    text-decoration:none; 
+}
+.downloadResume{
+    color: white;
+    border-color: #3498db;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 
+        0 0 40px 40px#3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out; 
+    
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
     border-radius: 0.6em;
     cursor: pointer;
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1;
@@ -86,29 +100,12 @@ button {
     padding: 0.7em 1.7em;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
 }
 
-.button {
-    border-color: #3498db;
-    font-family: 'Istok Web', sans-serif;
-    font-weight: 600;
-    color: #fff;
-    box-shadow: 
-        0 0 40px 40px#3498db inset, 0 0 0 0 #3498db;
-    transition: all 150ms ease-in-out;  
-}
-
-.button:hover {
+.downloadResume:hover {
     box-shadow: 
         0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
-}
-
-a {
-    text-decoration:none;
-}
-.downloadResume{
-    color: white;
 }
 
 .nav-list-home {
