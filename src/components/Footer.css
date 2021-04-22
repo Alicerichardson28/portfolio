@@ -11,7 +11,8 @@
 
 #footer-content-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -38,6 +39,12 @@
 
 .icon{
     color: black;
+}
+
+.list-of-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
