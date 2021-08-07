@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../pdf/resume.pdf'
+import resume from '../pdf/update-resume.pdf'
 import './Home.css'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
