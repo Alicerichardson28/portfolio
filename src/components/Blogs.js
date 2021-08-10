@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import { Button, Card, Container } from 'react-bootstrap'
 import './Blogs.css'
 
 export default class Blogs extends Component {
     state ={
         blogs: []
     }
+   
     
     componentDidMount() {
         fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alicerichardson28')
@@ -12,45 +14,32 @@ export default class Blogs extends Component {
          .then(res => res.items)
          .then(res => this.setState({blogs: res}))
     }
-
+    
     render() {
-        const showBlogs = this.state.blogs.map((blog, index) => 
-             {
+        console.log(this.state.blog)
+        const showBlogs = this.state.blogs.map((blog) => 
+        {
             return ( 
-                <div className='blog-container'>
-                        <div className='blogs-card' key={index}>
-                            <a href={blog.link} target="_blank" rel="noopener noreferrer">
-                                <h1 className='title'>{blog.title}</h1>
-                            </a>
-                        </div>
-                </div>
+                <Card className="card" key={blog.id}>
+                    <Card.Img className="blog-img" variant="top" src={blog.thumbnail} />
+                    <Card.Body>
+                        <Card.Title>{blog.title}</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </Card.Text>
+                        <Button variant="primary" href={blog.link} target="_blank">Read More</Button>
+                    </Card.Body>
+                </Card>   
             )
         })
         
         return (
         <>   
             <h1 className='blog-title'>Some of my blogs post</h1>
-            <div className='big-blogs-container'>
+            <Container fluid className="container-blogs">
                 {showBlogs}
-            </div>
-            
-            
-            {/* <Row xs={1} md={2} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
-                    <Col>
-                    <Card>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a longer card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                ))}
-            </Row> */}
+            </Container>
         </>
         )
     }

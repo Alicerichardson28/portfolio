@@ -2,53 +2,27 @@
     margin: 0;
 }
 
-.big-blogs-container{
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 50px;
+.container-blogs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.blog-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+.blog-title {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 4rem;
 }
 
+.card {
+    width: 350px;
+    margin: 4rem;
+}
 
-.blogs-card {
-    width: 80%;
+.blog-img {
+    margin: 10px;
+    width: 300px;
     height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    -webkit-filter: drop-shadow(5px 5px 5px rgb(133, 133, 133) );
-    filter: drop-shadow(5px 5px 5px rgba(148, 148, 148, 0.413));
-}
-
-.title {
-    font-size: large;
-    color: black;
-    font-weight: 300;
-    font-family: 'Overpass', sans-serif;
-}
-
-.navbar-bg {
-    background-color: black;
-    height: 75px;
-}
-
-
-.blog-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    font-size: 60px;
-    font-weight: 700;
-    font-family: 'Overpass', sans-serif;
 }
    /* responsive Mobile screen */
    @media screen and (max-width: 375px) {
