@@ -28,7 +28,7 @@ export default class Blogs extends Component {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
-                        <Button variant="primary" href={blog.link} target="_blank">Read More</Button>
+                        <Button variant="dark" href={blog.link} target="_blank">Read More</Button>
                     </Card.Body>
                 </Card>   
             )

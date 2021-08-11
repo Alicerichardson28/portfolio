@@ -25,11 +25,23 @@
     height: 150px;
 }
    /* responsive Mobile screen */
-   @media screen and (max-width: 375px) {
+   @media only screen and (max-width: 375px) {
+    .blog-title {
+        font-size: 1rem;
+    } 
+    .blog-img {
+        width: 180px;
+    }
   }
   /* responsive Tablet screen */
-  @media screen and (max-width: 768px) {
-    
+  @media only screen and (max-width: 768px) {
+    .blog-title {
+        font-size: 2rem;
+    }   
+    .blog-img {
+        width: 220px;
+
+    }
   }
   /* responsive Laptop screen */
   @media screen and (max-width: 1400px) {
