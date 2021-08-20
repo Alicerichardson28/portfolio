@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 import { Button, Card, Container } from 'react-bootstrap'
+import bgBlogPage from '../picture/font-bg.svg'
 import './Blogs.css'
 
 export default class Blogs extends Component {
     state ={
         blogs: []
     }
-   
     
     componentDidMount() {
         fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alicerichardson28')
-         .then(res => res.json())
-         .then(res => res.items)
-         .then(res => this.setState({blogs: res}))
+        .then(res => res.json())
+        .then(res => res.items)
+        .then(res => this.setState({blogs: res}))
     }
+    
     
     render() {
         console.log(this.state.blog)
@@ -23,24 +24,29 @@ export default class Blogs extends Component {
                 <Card className="card" key={blog.id}>
                     <Card.Img className="blog-img" variant="top" src={blog.thumbnail} />
                     <Card.Body>
-                        <Card.Title>{blog.title}</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark" href={blog.link} target="_blank">Read More</Button>
+                        <Card.Title className="mt-2">{blog.title}</Card.Title>
+                        <Button className="mt-5" variant="dark" href={blog.link} target="_blank">Read More</Button>
                     </Card.Body>
                 </Card>   
             )
         })
         
         return (
-        <>   
-            <h1 className='blog-title'>Some of my blogs post</h1>
-            <Container fluid className="container-blogs">
-                {showBlogs}
-            </Container>
-        </>
+            <>
+                <div className="container">   
+                    <div className="row">
+                        <div className="col-md-6 d-flex justify-content-center align-items-center">
+                            <h1>Some of my blogs post</h1>
+                        </div>
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={ bgBlogPage}/>
+                        </div>
+                    </div>
+                </div>
+                <Container fluid className="container-blogs">
+                    {showBlogs}
+                </Container>
+            </>
         )
     }
 }

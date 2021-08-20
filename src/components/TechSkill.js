@@ -18,8 +18,11 @@ import './TechSkill.css'
 export default class TechSkill extends Component {
     render() {
         return (
-            <div className='tech-container content-container'>
-                
+            <div className='container text-center'>
+                <p className="h4">
+                    <b>STACK</b> I’m familiar with technologies such as <b>JavaScript, React, HTML, CSS, Bootstrap</b>, Web design, PhotoShop, Figma... <br/>
+                    <a href="https://github.com/Alicerichardson28" target="_blank"><u className="text-dark link">SEE MY GITHUB</u></a>
+                </p>
             </div>
         )
     }

@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useState }from 'react'
+import { useSpring, animated, config } from 'react-spring'
 import resume from '../pdf/update-resume.pdf'
 import './Home.css'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Icon from './Icon'
-import alice1 from '../picture/alice1.jpg'
-import bg from '../picture/bg-section-1.png'
-import { Button, Card, Container } from 'react-bootstrap'
+import alice1 from '../picture/image2-section-1.svg'
 import ProjectContainer from '../components/Projects'
 import TechSkill from './TechSkill'
 import About from './About'
@@ -14,9 +13,17 @@ import Footer from './Footer'
 import BlogsAtHomePage from './BlogsAtHomePage.js'
 
 library.add(fab)
-function Navbar() {
-    // const [showMenu, setShowMenu] = useState(false)
-    // const [showAbout, setAbout] = useState(false)
+const  Navbar = () => {
+    const [flip, set] = useState(false)
+    const props = useSpring({
+      to: { opacity: 1 },
+      from: { opacity: 0 },
+      reset: true,
+      reverse: flip,
+      delay: 200,
+      config: config.molasses,
+      onRest: () => set(!flip),
+    })
 
     return ( 
         <>
@@ -31,17 +38,17 @@ function Navbar() {
                     <a href="#project-container" className='nav-list-home'>
                         My works
                     </a>
-                    <a href="#blog-post" className='nav-list-home'>
+                    <a href="/blogs" target="_blank" className='nav-list-home'>
                         Blogs
                     </a>
                 </div>
             </div> 
             <div id='first-container'>
                     <div className="container">
-                        <div className="row pb-2">
+                        <div className="row py-5">
                             <div className='col-md-6 d-flex flex-column justify-content-center align-items-start'>
                                 <Icon/>
-                                <p className='name m-0'>Alice Richardson</p>
+                                <p className="name h1">Alice Richardson</p>
                                 <p className='job-title m-0'>Frontend Developer & Design</p>
                                 <a 
                                 href={resume} 
@@ -51,7 +58,7 @@ function Navbar() {
                                 </a>
                             </div>
                             <div className='col-md-6 mt-5'>
-                                <img alt="first alice standing" className='d-none d-md-block img-fluid' src={alice1}/>
+                                <animated.div style={props} className="h1"><img alt="first alice standing" className='d-none d-md-block img-fluid' src={alice1}/></animated.div>
                             </div>
                         </div>
                     </div>
@@ -65,10 +72,10 @@ function Navbar() {
             <div id='project-container' className='section-container'>
                 <ProjectContainer/>
             </div>
-            <div id='blog-post' className='section-container'>
+            <div id='blog-post' className="d-block d-md-none container-fluid">
                 <BlogsAtHomePage />
             </div>
-            <div className='section-container'>
+            <div className='container-fluid m-0 footer-bg-color'>
                 <Footer />
             </div>
         </>

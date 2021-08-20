@@ -2,12 +2,20 @@ import React, { Component } from 'react'
 import './Projects.css'
 import { BiWorld } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
+import projectBg  from "../picture/career-development.png";
 
 export default class Projects extends Component {
     render() {
         return (
                 <div className='container content-container'>
-                    <h1 className='project-title'>Some of my latest work</h1>
+                    <div className="row">
+                        <div className="col-md-6 order-2">
+                            <img className="img-fluid" src={ projectBg }/>
+                        </div>
+                        <div className="col-md-6 order-1">
+                            <h1 className='project-title'>My Project</h1>
+                        </div>
+                    </div>
                     <ul className='project-container'>
                         <li className='project-card'>
                                 <div className='video-container'>
@@ -58,9 +66,6 @@ export default class Projects extends Component {
                                         <a href="https://github.com/Thai-Programmers-in-USA/emperor-frontend" target="_blank" rel="noopener noreferrer">
                                             <AiFillGithub size='27px' color='black'/>
                                         </a>
-                                        <a href="http://emperor-frontend.us-east-2.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">
-                                            <BiWorld size='27px' color='black'/>  
-                                        </a>
                                     </div>
                                     <h1 className='project-name'>Emperor is frontend website about furniture shop</h1>
                                     <h1 className='project-name'><u>Tech Stack:</u> React, CI/CD, Docker, React testing </h1>
@@ -94,15 +99,13 @@ export default class Projects extends Component {
                                         <a href="https://github.com/Alicerichardson28/coffee-frontend-1" target="_blank" rel="noopener noreferrer">
                                             <AiFillGithub size='27px' color='black'/>
                                         </a>
-                                        {/* <a href="https://thai-alphabet-flashcard.web.app/" target="_blank" rel="noopener noreferrer">
-                                            <BiWorld size='27px' color='black'/>  
-                                        </a> */}
                                     </div>
                                     <h1 className='project-name'>coffee shop was design for create a system for ordering & tracking inventory.</h1>
                                     <p className='project-name'><u>Tech Stack:</u> Ruby on Rails, Javascript, HTML, CSS </p>
                                 </div>
-                        </li>     
+                        </li>   
                     </ul>
+                    
                 </div>
         )
     }

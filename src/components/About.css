@@ -15,35 +15,6 @@
     font-family: 'Istok Web', sans-serif;
 }
 
-.about-content {
-    max-width: 40%;
-    display: inline-flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-left: 100px;
-}
-
-.content-about1 {
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: 400;
-    color:rgb(65, 65, 65);
-    font-family: 'Istok Web', sans-serif;
-    text-align: justify;
-    letter-spacing: 1px;
-    line-height: 30px;
-}
-
-.content-about2 {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Istok Web', sans-serif;
-    text-align: justify;
-    letter-spacing: 1px;
-    line-height: 32px;
-}
-
 .alice-photo {
     min-width: 300px;
     width: 400px;
@@ -60,7 +31,7 @@
     animation-name: moveInLeft;
     animation-duration: 1s;
 }
-
+.text-salmon { color: #c98474;}
 
 @keyframes moveInLeft {
     0% {

@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default class Footer extends Component {
     render() {
         return (
-            <div id='footer-container' className='section-container'>
-                <div id='footer-content-container' className='content-container'>
-                    <div className='footer-content1-container'>
+            <div id='footer-container'>
+                <div className='container py-3'>
+                    <div className="text-center">
                         <h1 className='year-title'>@2021 Alice Richardson</h1>
                     </div>
-                    <div className='footer-content2-container'>
+                    <div className="nav-footer-container d-flex justify-content-between">
                             <a 
                                 aria-label= "section about myself" 
                                 href="#about-section-container" 
@@ -34,37 +34,30 @@ export default class Footer extends Component {
                             </a>
                             <a 
                                 aria-label= "section about my personal blog post"
-                                href="#blog-post"
+                                href="/blogs"
+                                target="_blank"
                                 className='nav-list-footer'
                             >
                                 Blogs
                             </a>
                     </div>
-                    <div className='footer-content3-container'>
-                        <div className='container-icons'>
-                            <ul className='list-of-icons'>
-                                <a 
-                                    aria-label= "take a look of my github" 
-                                    href='https://github.com/Alicerichardson28' 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"  
-                                >
-                                        <li className='li-icon'>
-                                            <FontAwesomeIcon className='icon' icon={['fab', 'github']}/>
-                                        </li> 
-                                </a>
-                                <a 
-                                    aria-label= "connect with me on linkedIn" 
-                                    href='https://www.linkedin.com/in/alice-richardson-dev/' 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                >
-                                    <li className='li-icon'>
-                                        <FontAwesomeIcon className='icon' icon={['fab', 'linkedin']}/>
-                                    </li>  
-                                </a> 
-                            </ul>
-                        </div>
+                    <div className="container-icons-footer d-flex justify-content-between mt-3">
+                        <a 
+                            aria-label= "take a look of my github" 
+                            href='https://github.com/Alicerichardson28' 
+                            target="_blank" 
+                            rel="noopener noreferrer"  
+                        >
+                            <FontAwesomeIcon className='icon fa-2x' icon={['fab', 'github']}/>   
+                        </a>
+                        <a 
+                            aria-label= "connect with me on linkedIn" 
+                            href='https://www.linkedin.com/in/alice-richardson-dev/' 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <FontAwesomeIcon className='icon fa-2x' icon={['fab', 'linkedin']}/>
+                        </a> 
                     </div>
                 </div>
             </div>

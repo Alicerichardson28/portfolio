@@ -1,68 +1,30 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
+import { useSpring, animated, config } from 'react-spring'
+import { Button } from 'react-bootstrap';
 import './BlogsAtHomePage.css'
-import { Button, Card, Container } from 'react-bootstrap'
-import WomenWhoCodeImg from '../picture/women-who-code.png'
-import UxAndUiImg from '../picture/uxanduidesign.jpeg'
-import WebDevImg from '../picture/software developer.jpeg'
-import { Link } from 'react-router-dom';
 
 
 
-export default class BlogsAtHomePage extends Component {
-    render() {
-        return (
-            <div className='blogs-at-home-container content-container'>
-                <div className='blogs-title-container'>
-                    <hr/>
-                    <h1 className='h1-title'>My blogs</h1>
-                    <hr/>
-                </div>
-                <div className='blogs-container'>
-                    <div className='blog-card'>
-                        <div className='img-container'>
-                            <img src={WomenWhoCodeImg} alt='women who code' className='blog-homepage-img'/>
-                        </div>
-                        <div className='blog-link-container'>
-                            <a href='https://alicerichardson28.medium.com/my-experience-as-a-speaker-for-women-who-code-6beb99ae0de5' target="_blank" rel="noopener noreferrer">
-                                <h2 className='topic-title'>My experience as a speaker for Women Who Code</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='blog-card'>
-                        <div className='img-container'>
-                            <img src={UxAndUiImg} alt='ux and ui design' className='blog-homepage-img'/>
-                        </div>
-                        <div className='blog-link-container'>
-                            <a href='https://alicerichardson28.medium.com/as-a-frontend-developer-should-you-know-about-ui-and-ux-8e78c7a955ee' target="_blank" rel="noopener noreferrer">
-                                <h2 className='topic-title'>As a Frontend developer, should you know about UI and UX?</h2>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='blog-card'>
-                        <div className='img-container'>
-                            <img src={WebDevImg} alt='web developer' className='blog-homepage-img'/>
-                        </div>
-                        <div className='blog-link-container'>
-                            <a href='https://alicerichardson28.medium.com/how-i-become-a-software-developer-with-english-as-my-second-language-937a516e3530' target="_blank" rel="noopener noreferrer">
-                                <h2 className='topic-title'>How I become a software developer with English as my second language</h2>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className='btn-container'>
-                    <button className='more-blog-button' aria-expanded="false">
-                        <Link 
-                            to="/blogs" 
-                            className='link-more-blog' 
-                            target="_blank" 
-                            rel="noopener noreferrer">
-                                View More Blogs
-                        </Link>
-                    </button>
-                </div>
-            </div>
-        )
-    }
+const BlogsAtHomePage = () => {
+    const [flip, set] = useState(false)
+    const props = useSpring({
+      to: { opacity: 1 },
+      from: { opacity: 0 },
+      reset: true,
+      reverse: flip,
+      delay: 30,
+      config: config.molasses,
+      onRest: () => set(!flip),
+    })
+
+      return (
+          <div className="container blog-homePage-container">
+              <animated.div style={props} className="h1">Exploring technical blog post</animated.div>
+              <Button href="/blogs" variant="warning" size="lg" target="_blank">Read more</Button>
+          </div>
+      )
+    
 }
 
+export default BlogsAtHomePage;
 
