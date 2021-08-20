@@ -3,6 +3,7 @@ import './Projects.css'
 import { BiWorld } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
 import projectBg  from "../picture/career-development.png";
+import pizza from "../picture/pizza-project.png"
 
 export default class Projects extends Component {
     render() {
@@ -91,7 +92,7 @@ export default class Projects extends Component {
                         </li>     
                         <li className='project-card'>
                                 <div className='video-container'>
-                                        <iframe title='coffee-shop' src="https://giphy.com/embed/RK4c192o8h19jdJQR3" width="480" height="238" frameBorder="0" className='video' allowFullScreen>
+                                    <iframe title='coffee-shop' src="https://giphy.com/embed/RK4c192o8h19jdJQR3" width="480" height="238" frameBorder="0" className='video' allowFullScreen>
                                     </iframe>
                                 </div>
                                 <div className='project-content'>
@@ -102,6 +103,23 @@ export default class Projects extends Component {
                                     </div>
                                     <h1 className='project-name'>coffee shop was design for create a system for ordering & tracking inventory.</h1>
                                     <p className='project-name'><u>Tech Stack:</u> Ruby on Rails, Javascript, HTML, CSS </p>
+                                </div>
+                        </li>   
+                        <li className='project-card'>
+                                <div className='img-container'>
+                                    <img className="img-fluid " src={ pizza } alt="pizza project"/>
+                                </div>
+                                <div className='project-content'>
+                                    <div className='icon-container mt-2'>
+                                        <a href="https://github.com/Alicerichardson28/Pizza-website-with-React" target="_blank" rel="noopener noreferrer">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
+                                        <a href="https://alicerichardson28.github.io/Pizza-website-with-React/" target="_blank" rel="noopener noreferrer">
+                                            <BiWorld size='27px' color='black'/>  
+                                        </a>
+                                    </div>
+                                    <h1 className='project-name'>Greatest Pizza Project, using styled component and Responsive Web Design</h1>
+                                    <p className='project-name'><u>Tech Stack:</u> React, Styled-Component </p>
                                 </div>
                         </li>   
                     </ul>
