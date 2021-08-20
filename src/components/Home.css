@@ -7,10 +7,9 @@
 
 #nav-container{
     position: fixed;
-    background-color:rgb(31, 30, 30);
+    background-color:#F2D388;
     z-index: 1;
     display: block;
-    height: 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -34,8 +33,7 @@
 }
 
 #first-container {  
-    height: 100vh;
-    background-color: rgb(31, 30, 30); 
+    background-color: #c98474; 
 }
 
 .name-photo-container{
@@ -52,22 +50,15 @@
 
 .name {
     width: 500px;
-    color: white;
+    color: #282828;
     font-size: 60px;
     font-weight: 700;
     font-family: 'Istok Web', sans-serif;
 }
 
 .job-title {
-    color: white;
+    color: #282828;
     font-size: 34px;
-    font-weight: 200;
-    font-family: 'Istok Web', sans-serif;
-}
-
-.job-title-h3{
-    color: white;
-    font-size: 26px;
     font-weight: 200;
     font-family: 'Istok Web', sans-serif;
 }
@@ -76,13 +67,12 @@ a {
     text-decoration:none; 
 }
 .downloadResume{
-    color: white;
-    border-color: #3498db;
+    border-color: #F2D388;
     font-family: 'Istok Web', sans-serif;
     font-weight: 600;
-    color: #fff;
+    color: #282828;
     box-shadow: 
-        0 0 40px 40px#3498db inset, 0 0 0 0 #3498db;
+        0 0 40px 40px#F2D388 inset, 0 0 0 0 #F2D388;
     transition: all 150ms ease-in-out; 
     
     box-sizing: border-box;
@@ -104,15 +94,16 @@ a {
 }
 
 .downloadResume:hover {
+    color: #282828;
     box-shadow: 
-        0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+        0 0 10px 0 #F2D388 inset, 0 0 10px 4px #F2D388;
 }
 
 .nav-list-home {
     font-weight: 600;
     font-size: 20px;
     font-family: 'Istok Web', sans-serif;
-    color: white;
+    color: #000000;
     padding-right: 20px;
 }
 

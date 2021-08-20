@@ -1,11 +1,5 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
 
-.container-icons ul{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    list-style-type: none;
-  }
-  
   .container-icons li {
     font-size: 2em !important;
     margin-left: 20px;
@@ -13,9 +7,6 @@
 
    /* responsive Mobile screen */
 @media screen and (max-width: 375px) {
-  .list-of-icons{
-    padding: 0;
-  }
   .container-icons li {
     font-size: 1.5em !important;
   }

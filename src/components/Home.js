@@ -5,6 +5,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import Icon from './Icon'
 import alice1 from '../picture/alice1.jpg'
+import bg from '../picture/bg-section-1.png'
+import { Button, Card, Container } from 'react-bootstrap'
 import ProjectContainer from '../components/Projects'
 import TechSkill from './TechSkill'
 import About from './About'
@@ -16,9 +18,9 @@ function Navbar() {
     // const [showMenu, setShowMenu] = useState(false)
     // const [showAbout, setAbout] = useState(false)
 
-    return (
+    return ( 
         <>
-            <div id='nav-container' className='section-container'>
+            <div id='nav-container' className='section-container py-3'>
                 <div id='nav-content-container' className='content-container'>
                     <a href="#about-section-container" className='nav-list-home'>
                         About
@@ -34,24 +36,23 @@ function Navbar() {
                     </a>
                 </div>
             </div> 
-            <div id='first-container' className='section-container'>
-                    <div className="name-photo-container content-container">
-                        <div className='profile-container'>
-                            <Icon/>
-                            <br></br>
-                            <p className='name'>Alice Richardson</p>
-                            <p className='job-title'>Frontend & Full stack developer</p>
-                            <p className='job-title-h3'>UX & UI Designer</p>
-                            <br></br>
-                            <a 
-                            href={resume} 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className='downloadResume'>View Resume 
-                            </a>
-                        </div>
-                        <div className='photo-container'>
-                            <img alt="first alice standing" className='alice1-photo' src={alice1}/>
+            <div id='first-container'>
+                    <div className="container">
+                        <div className="row pb-2">
+                            <div className='col-md-6 d-flex flex-column justify-content-center align-items-start'>
+                                <Icon/>
+                                <p className='name m-0'>Alice Richardson</p>
+                                <p className='job-title m-0'>Frontend Developer & Design</p>
+                                <a 
+                                href={resume} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className='downloadResume px-5 py-3'>View Resume 
+                                </a>
+                            </div>
+                            <div className='col-md-6 mt-5'>
+                                <img alt="first alice standing" className='d-none d-md-block img-fluid' src={alice1}/>
+                            </div>
                         </div>
                     </div>
             </div>

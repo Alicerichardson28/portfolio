@@ -8,32 +8,31 @@ library.add(fab)
 
 export default function Icon() {
     return (
-        <div>
-            <div className='container-icons'>
-                <ul className='list-of-icons'>
-                    <a 
-                        href='https://github.com/Alicerichardson28' 
-                        aria-label= "take a look of my github" 
-                        target="_blank" 
-                        rel="noopener noreferrer" >
-                            <li><FontAwesomeIcon 
-                                icon={['fab', 'github']} 
-                                color='white'/>
-                            </li> 
-                    </a>
-                    <a 
-                        href='https://www.linkedin.com/in/alice-richardson-dev/' 
-                        aria-label= "connect with me on linkedIn" 
-                        target="_blank" 
-                        rel="noopener noreferrer">
-                            <li>
-                                <FontAwesomeIcon 
-                                icon={['fab', 'linkedin']} 
-                                color='white'/>
-                            </li>  
-                    </a> 
-                </ul>
-            </div>
+        <div className='container-icons '>
+            <ul className="list-unstyled d-flex">
+                <a 
+                    href='https://github.com/Alicerichardson28' 
+                    aria-label= "take a look of my github" 
+                    target="_blank" 
+                    rel="noopener noreferrer" >
+                        <li>
+                            <FontAwesomeIcon 
+                            icon={['fab', 'github']} 
+                            color=' #282828'/>
+                        </li> 
+                </a>
+                <a 
+                    href='https://www.linkedin.com/in/alice-richardson-dev/' 
+                    aria-label= "connect with me on linkedIn" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <li>
+                            <FontAwesomeIcon 
+                            icon={['fab', 'linkedin']} 
+                            color=' #282828'/>
+                        </li>  
+                </a> 
+            </ul>
         </div>
     )
 }
