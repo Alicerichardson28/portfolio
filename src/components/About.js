@@ -19,7 +19,7 @@ export default class About extends Component {
                         <h4>
                             I enjoy turning complex problems into simple, beautiful and intuitive designs. I also love the
                             logic and structure of coding and always strive to write elegant and efficient code. whether it be <b className="text-salmon"><u>HTML,
-                            CSS, Javascript and React.</u></b> When I'm not coding, tweeting or pushing pixels, you'll find me cooking, hiking 
+                            CSS, Javascript and React.</u></b> When I'm not coding, you'll find me cooking, hiking 
                             or at the gym.   
                         </h4>
                     </div>
