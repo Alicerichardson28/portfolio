@@ -28,6 +28,23 @@ export default class Projects extends Component {
                                     <h1 className='project-name'>Volunteer speaker at WWC (Women Who Code Boulder/Denver). After finishing school I had been self-learning a lot of new tech, and love sharing my experience with everyone.</h1>
                                 </div>
                         </li>
+                        <li className='project-card d-flex flex-column justify-content-center'>
+                                <div className='img-container '>
+                                    <img className="img-fluid pizza-img" src={ pizza } alt="pizza project"/>
+                                </div>
+                                <div className='project-content '>
+                                    <div className='icon-container mt-2'>
+                                        <a href="https://github.com/Alicerichardson28/Pizza-website-with-React" target="_blank" rel="noopener noreferrer">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
+                                        <a href="https://alicerichardson28.github.io/Pizza-website-with-React/" target="_blank" rel="noopener noreferrer">
+                                            <BiWorld size='27px' color='black'/>  
+                                        </a>
+                                    </div>
+                                    <h1 className='project-name'>Greatest Pizza Project, using styled component and Responsive Web Design</h1>
+                                    <p className='project-name'><u>Tech Stack:</u> React, Styled-Component </p>
+                                </div>
+                        </li>   
                         <li className='project-card'>
                                 <div className='video-container'>
                                     <iframe title='eco-freak' src="https://giphy.com/embed/Ci3pQjENHmpCCH6WoK" width="480" height="233" frameBorder="0" className="video" allowFullScreen></iframe>
@@ -103,23 +120,6 @@ export default class Projects extends Component {
                                     </div>
                                     <h1 className='project-name'>coffee shop was design for create a system for ordering & tracking inventory.</h1>
                                     <p className='project-name'><u>Tech Stack:</u> Ruby on Rails, Javascript, HTML, CSS </p>
-                                </div>
-                        </li>   
-                        <li className='project-card d-flex flex-column justify-content-center'>
-                                <div className='img-container '>
-                                    <img className="img-fluid pizza-img" src={ pizza } alt="pizza project"/>
-                                </div>
-                                <div className='project-content '>
-                                    <div className='icon-container mt-2'>
-                                        <a href="https://github.com/Alicerichardson28/Pizza-website-with-React" target="_blank" rel="noopener noreferrer">
-                                            <AiFillGithub size='27px' color='black'/>
-                                        </a>
-                                        <a href="https://alicerichardson28.github.io/Pizza-website-with-React/" target="_blank" rel="noopener noreferrer">
-                                            <BiWorld size='27px' color='black'/>  
-                                        </a>
-                                    </div>
-                                    <h1 className='project-name'>Greatest Pizza Project, using styled component and Responsive Web Design</h1>
-                                    <p className='project-name'><u>Tech Stack:</u> React, Styled-Component </p>
                                 </div>
                         </li>   
                     </ul>
