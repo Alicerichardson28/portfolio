@@ -16,11 +16,10 @@ const BlogsAtHomePage = () => {
 
       return (
           <div className="container blog-homePage-container">
-              <animated.div style={props} className="h1">Exploring technical blog post</animated.div>
+              <animated.div style={props} className="h1">Exploring Technical Blog Post</animated.div>
               <Button href="/blogs" variant="warning" size="lg" target="_blank">Read more</Button>
           </div>
       )
-    
 }
 
 export default BlogsAtHomePage;
