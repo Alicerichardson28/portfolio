@@ -65,8 +65,8 @@ const  Navbar = () => {
             </div>
             {/* <TechSkill/>  */}
             <div className="spacer layer1 d-flex justify-content-between">
-                <div className="container">
-                    <p className="h4">
+                <div className="container svg-bottom-padding">
+                    <p className="h4 text-center">
                         <b className="text-salmon h3">STACK</b> I’m familiar with technologies such as <b className="text-salmon h3">JavaScript, React, HTML, CSS, Bootstrap</b>,Styled-Component, Web design, PhotoShop, Figma... <a href="https://github.com/Alicerichardson28" target="_blank"><u className="text-dark link">SEE MY GITHUB</u></a>
                     </p>
                 </div>

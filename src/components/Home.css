@@ -44,6 +44,8 @@
 .layer1 {
     background-image: url('../picture/layer1.svg');
 }
+.svg-bottom-padding { margin-bottom: 100px;}
+
 
 
 #first-container {  
