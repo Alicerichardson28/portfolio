@@ -14,7 +14,7 @@ export default class Projects extends Component {
                             <img className="img-fluid" src={ projectBg }/>
                         </div>
                         <div className="col-md-6 order-1">
-                            <h1 className='project-title'>My Project</h1>
+                            <h1 className='project-title'>My Projects</h1>
                         </div>
                     </div>
                     <ul className='project-container'>

@@ -30,7 +30,7 @@ export default class Footer extends Component {
                                 href="#project-container" 
                                 className='nav-list-footer'
                             >
-                                My works
+                                My Projects
                             </a>
                             <a 
                                 aria-label= "section about my personal blog post"
