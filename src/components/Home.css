@@ -22,6 +22,7 @@
     padding: 0 140px;
 }
 .section-container {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,6 +32,19 @@
 .content-container{
     width: 80%;
 }
+/* svg */
+.spacer {
+    aspect-ratio: 900/450;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../picture/layer1.svg');
+}
+
 
 #first-container {  
     background-color: #c98474; 

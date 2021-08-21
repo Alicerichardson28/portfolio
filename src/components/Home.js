@@ -63,8 +63,13 @@ const  Navbar = () => {
             <div id='about-section-container' className='section-container'>
                 <About/>
             </div>
-            <div id='tech-tools-container' className='section-container'>
-                <TechSkill/>
+            {/* <TechSkill/>  */}
+            <div className="spacer layer1 d-flex justify-content-between">
+                <div className="container">
+                    <p className="h4">
+                        <b className="text-salmon h3">STACK</b> I’m familiar with technologies such as <b className="text-salmon h3">JavaScript, React, HTML, CSS, Bootstrap</b>,Styled-Component, Web design, PhotoShop, Figma... <a href="https://github.com/Alicerichardson28" target="_blank"><u className="text-dark link">SEE MY GITHUB</u></a>
+                    </p>
+                </div>
             </div>
             <div id='project-container' className='section-container'>
                 <ProjectContainer/>
