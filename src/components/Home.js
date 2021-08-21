@@ -14,15 +14,12 @@ import BlogsAtHomePage from './BlogsAtHomePage.js'
 
 library.add(fab)
 const  Navbar = () => {
-    const [flip, set] = useState(false)
     const props = useSpring({
       to: { opacity: 1 },
       from: { opacity: 0 },
       reset: true,
-      reverse: flip,
-      delay: 200,
+      delay: 250,
       config: config.molasses,
-      onRest: () => set(!flip),
     })
 
     return ( 

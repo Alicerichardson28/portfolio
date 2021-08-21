@@ -105,11 +105,11 @@ export default class Projects extends Component {
                                     <p className='project-name'><u>Tech Stack:</u> Ruby on Rails, Javascript, HTML, CSS </p>
                                 </div>
                         </li>   
-                        <li className='project-card'>
-                                <div className='img-container'>
-                                    <img className="img-fluid " src={ pizza } alt="pizza project"/>
+                        <li className='project-card d-flex flex-column justify-content-center'>
+                                <div className='img-container '>
+                                    <img className="img-fluid pizza-img" src={ pizza } alt="pizza project"/>
                                 </div>
-                                <div className='project-content'>
+                                <div className='project-content '>
                                     <div className='icon-container mt-2'>
                                         <a href="https://github.com/Alicerichardson28/Pizza-website-with-React" target="_blank" rel="noopener noreferrer">
                                             <AiFillGithub size='27px' color='black'/>

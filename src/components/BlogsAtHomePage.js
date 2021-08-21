@@ -6,15 +6,12 @@ import './BlogsAtHomePage.css'
 
 
 const BlogsAtHomePage = () => {
-    const [flip, set] = useState(false)
     const props = useSpring({
       to: { opacity: 1 },
       from: { opacity: 0 },
       reset: true,
-      reverse: flip,
-      delay: 30,
+      delay: 50,
       config: config.molasses,
-      onRest: () => set(!flip),
     })
 
       return (
