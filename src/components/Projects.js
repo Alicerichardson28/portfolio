@@ -4,6 +4,7 @@ import { BiWorld } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
 import projectBg  from "../picture/career-development.png";
 import pizza from "../picture/pizza-project.png"
+import alPrada from "../picture/alprada-eommerce.png"
 
 export default class Projects extends Component {
     render() {
@@ -18,16 +19,23 @@ export default class Projects extends Component {
                         </div>
                     </div>
                     <ul className='project-container'>
-                        <li className='project-card'>
-                                <div className='video-container'>
-                                    <iframe title="Volunteer" className='video' 
-                                            src="https://www.youtube.com/embed/SKebje9QFBg">
-                                    </iframe>
+                        <li className='project-card d-flex flex-column justify-content-center'>
+                                <div className='img-container '>
+                                    <img className="img-fluid pizza-img" src={ alPrada } alt="E Commerce project"/>
                                 </div>
-                                <div className='project-content'>
-                                    <h1 className='project-name'>Volunteer speaker at WWC (Women Who Code Boulder/Denver). After finishing school I had been self-learning a lot of new tech, and love sharing my experience with everyone.</h1>
+                                <div className='project-content '>
+                                    <div className='icon-container mt-2'>
+                                        <a href="https://github.com/Alicerichardson28/AlPrada-Ecommerce-Project" target="_blank" rel="noopener noreferrer">
+                                            <AiFillGithub size='27px' color='black'/>
+                                        </a>
+                                        <a href="https://alprada-ecommerce-store.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                            <BiWorld size='27px' color='black'/>  
+                                        </a>
+                                    </div>
+                                    <h1 className='project-name'>AlPrada eCommerce Web Shop, build a fully functional eCommerce application using commerce.js, using Stripe for card transactions.</h1>
+                                    <p className='project-name'><u>Tech Stack:</u> React, Commerce.js, material-ui, Stripe & deploy with Netlify </p>
                                 </div>
-                        </li>
+                        </li>   
                         <li className='project-card d-flex flex-column justify-content-center'>
                                 <div className='img-container '>
                                     <img className="img-fluid pizza-img" src={ pizza } alt="pizza project"/>
@@ -45,6 +53,16 @@ export default class Projects extends Component {
                                     <p className='project-name'><u>Tech Stack:</u> React, Styled-Component </p>
                                 </div>
                         </li>   
+                        <li className='project-card'>
+                                <div className='video-container'>
+                                    <iframe title="Volunteer" className='video' 
+                                            src="https://www.youtube.com/embed/SKebje9QFBg">
+                                    </iframe>
+                                </div>
+                                <div className='project-content'>
+                                    <h1 className='project-name'>Volunteer speaker at WWC (Women Who Code Boulder/Denver). After finishing school I had been self-learning a lot of new tech, and love sharing my experience with everyone.</h1>
+                                </div>
+                        </li>
                         <li className='project-card'>
                                 <div className='video-container'>
                                     <iframe title='eco-freak' src="https://giphy.com/embed/Ci3pQjENHmpCCH6WoK" width="480" height="233" frameBorder="0" className="video" allowFullScreen></iframe>
@@ -123,7 +141,6 @@ export default class Projects extends Component {
                                 </div>
                         </li>   
                     </ul>
-                    
                 </div>
         )
     }

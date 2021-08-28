@@ -1,6 +1,6 @@
 import React, { useState }from 'react'
 import { useSpring, animated, config } from 'react-spring'
-import resume from '../pdf/update-resume.pdf'
+import resume from '../pdf/Update-resume.pdf'
 import './Home.css'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -40,6 +40,7 @@ const  Navbar = () => {
                     </a>
                 </div>
             </div> 
+            
             <div id='first-container'>
                     <div className="container">
                         <div className="row py-5">
